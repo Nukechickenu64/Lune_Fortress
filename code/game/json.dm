@@ -78,7 +78,7 @@ proc/makejson()
 	var/file = file(dmepath)
 	file << text
 	message_admins("Compiling...")
-	shell("./recompile")
+	shell(".\BUILD.bat")
 	message_admins("Done")
 	world.Reboot("Switching to [newmap]")
 
@@ -91,7 +91,7 @@ proc/GetMapInfo()
 //	Just removing these to try and fix the occasional JSON -> WORLD issue.
 //	world << M.name
 //	world << M.mapname
-client/proc/ChangeMap(var/X as text)
+/client/proc/ChangeMap(var/X as text)
 	set name = "Change Map"
 	set category  = "Admin"
 	switchmap(X,X)

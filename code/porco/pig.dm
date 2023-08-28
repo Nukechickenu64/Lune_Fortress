@@ -5,6 +5,8 @@
 	var/datum/asset/stuff = get_asset_datum(/datum/asset/pig)
 	stuff.register()
 	stuff.send(src)
+	lobbyPig()
+
 
 /client/verb/ready()
 	set hidden = 1
@@ -382,6 +384,7 @@
 	..()
 	loadDataPig()
 	lobbyPig()
+	updatelobbypiglet()
 
 	if(!holder)
 		return

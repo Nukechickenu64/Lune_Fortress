@@ -43,6 +43,7 @@ var/global/trainmoving = 0
 var/global/trainwhereisit = 2 // 1 fortress 2 station
 
 /obj/machinery/key_card/g/magma/Trem/attack_hand(mob/user)
+	var/obj/effect/landmark/mapinfo/MF = locate(/obj/effect/landmark/mapinfo/)
 	if(icon_state == "lever1")
 		icon_state = "lever0"
 	else
@@ -53,28 +54,29 @@ var/global/trainwhereisit = 2 // 1 fortress 2 station
 			return
 		else
 			if(trainwhereisit == 1)
-				for(var/x = 0; x <= TRAIN_STOP; x++)
+				for(var/x = 0; x <= MF.trainstop; x++)
 					trainmoving = 1
 					sleep(2)
 					var/value = 1
-					if(x == TRAIN_STOP)
+					if(x == MF.trainstop)
 						value = 2
 					for(var/obj/O in trainparts)
 						O.trainMove(NORTH, value)
-					if(x == TRAIN_STOP)
+					if(x == MF.trainstop)
 						trainmoving = 0
 						trainwhereisit = 2
 						return
 			else if(trainwhereisit == 2)
-				for(var/x = 0; x <= TRAIN_STOP; x++)
+				for(var/x = 0; x <= MF.trainstop; x++)
 					trainmoving = 1
 					sleep(2)
 					var/value = 1
-					if(x == TRAIN_STOP)
+					if(x == MF.trainstop)
 						value = 2
 					for(var/obj/O in trainparts)
 						O.trainMove(SOUTH, value)
-					if(x == TRAIN_STOP)
+					if(x == MF.trainstop)
 						trainmoving = 0
 						trainwhereisit = 1
 						return
+

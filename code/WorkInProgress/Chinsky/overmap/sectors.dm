@@ -58,7 +58,6 @@ var/global/list/map_sectors = list()
 /obj/effect/mapinfo/New()
 	tag = "sector[z]"
 	zlevel = z
-
 /obj/effect/mapinfo/sector
 	name = "generic sector"
 	obj_type = /obj/effect/map/sector

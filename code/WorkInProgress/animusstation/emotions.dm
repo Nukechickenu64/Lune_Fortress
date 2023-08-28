@@ -175,5 +175,5 @@
 /mob/living/carbon/human/verb/Masturbate()
 	set name = "Masturbate"
 	set category = "Emote"
-
-	emote("masturbate",1,null,0)
+	if(!species.name == "Child")
+		emote("masturbate",1,null,0)

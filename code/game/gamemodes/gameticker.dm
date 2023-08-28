@@ -676,7 +676,8 @@ var/turf/MiniSpawn
 /mob/living/carbon/human/var/dst_completed = 0
 
 /datum/controller/gameticker/proc/declare_completion()
-
+	var/setmap = pick(file2list("config/mapset.txt"))
+	switchmap(setmap)
 	var/list/client/cultists = list()
 	for(var/mob/M in player_list)
 		if(M.client.prefs.toggles & SOUND_MIDI && EndRoundMusicGAMEMODE == 0) //pra antag que tem endround song proprio, e uma var global so botar = 1 e deixar no declare completion

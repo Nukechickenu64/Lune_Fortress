@@ -129,9 +129,12 @@
 	icon_state = "x"
 	anchored = 1.0
 	var/mapname = "Default"
+	var/trainstop = 15
 
 /obj/effect/landmark/mapinfo/New()
-	..()
+	switch(mapname)
+		if("Beffa (map 1)") trainstop = 60
+		if("Lasting Rose (map 3)") trainstop = 82
 
 //Costume spawner landmarks
 

@@ -47,7 +47,7 @@ var/religion_name = null
 	return vessel_name
 
 /proc/world_name()
-	var/name = "Deathweb†: "
+	var/name = "LuneFortress13: "
 	name += pick("Murder", "Love", "Kill the", "Love the","Kidnap the","Castrate the","Save","Deadly", "Paranoid", "Unidentified",
 	"Skeleton", "Communist", "Dead","Sleeping","Thirsty","Hungry",
 	"Dangerous","Overdosed","Depressed","Butchered","Foolish","False","Ominous",

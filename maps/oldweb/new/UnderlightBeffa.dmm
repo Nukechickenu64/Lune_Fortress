@@ -95,6 +95,7 @@
 "dn" = (/obj/structure/rack/lwtable/table10end{dir = 8; icon_state = "wood_1tileendtable"},/obj/item/reagent_containers/glass/bottle/lifeweb/thorium,/obj/item/reagent_containers/glass/bottle/lifeweb/thorium,/turf/simulated/floor/lifeweb{dir = 8; icon_state = "bluestone"},/area/dunwell/station/medbay)
 "dp" = (/obj/machinery/computer/incarn_button,/obj/structure/rack/lwtable/reinftable3{dir = 1; icon_state = "reinf_table3"; narrow = 1},/turf/simulated/floor/lifewebe{dir = 8; icon_state = "steel"},/area/dunwell/station/gates)
 "dq" = (/obj/structure/window/full/reinforced/black{dir = 4},/obj/structure/grille/reinforced{plane = 0},/turf/simulated/floor/lifewebe{dir = 8; icon_state = "steel"},/area/dunwell/station/brothel)
+"dr" = (/obj/effect/landmark/mapinfo{mapname = "Everlast (Map 2)"},/turf/simulated/floor/lifeweb/merch,/area/dunwell/station/smith)
 "dv" = (/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/lifeweb/vinte7,/area/dunwell/station/train_station)
 "dy" = (/turf/simulated/floor/lifeweb{dir = 1; icon_state = "chapelnew"},/area/dunwell/station/lifeweb)
 "dz" = (/obj/machinery/door/airlock/glass_medicalheart{name = "Surgery Room B"; req_access_txt = "160"; req_one_access_txt = "160"},/obj/structure/door_protect{dir = 4; icon_state = "door_open"},/turf/simulated/floor/lifeweb/surgery2{dir = 6; icon_state = "surgery2"},/area/dunwell/station/medbay)
@@ -215,6 +216,7 @@
 "hD" = (/obj/item/stone,/turf/simulated/floor/plating/dirt,/area/dunwell/surface)
 "hF" = (/obj/structure/lifeweb/s_stone/xsd{dir = 1; icon_state = "aborder1"},/turf/simulated/floor/lifeweb{dir = 8; icon_state = "bluestone"},/area/dunwell/station)
 "hG" = (/obj/structure/grille/reinforced,/turf/simulated/floor/lifeweb/plazar{dir = 6; icon_state = "plazar"},/area/dunwell/station/gates)
+"hH" = (/obj/effect/landmark/mapinfo,/turf/simulated/floor/lifeweb/merch,/area/dunwell/station/smith)
 "hJ" = (/obj/effect/landmark{name = "regurgitator"},/turf/simulated/floor/shuttle3,/area/dunwell/station/miser/airy5)
 "hM" = (/turf/simulated/floor/lifeweb/wood/wooddaarkkk{dir = 5; icon_state = "2115"},/area/dunwell/station/medbay)
 "hN" = (/obj/structure/stool/bed/chair/comfy/capchairmulti/left,/turf/simulated/floor/lifeweb{dir = 10; icon_state = "exotic"},/area/dunwell/station)
@@ -572,6 +574,7 @@
 "tM" = (/obj/structure/sink{dir = 8; icon_state = "sink"},/turf/simulated/floor/lifeweb/surgery{dir = 4; icon_state = "surgery"},/area/dunwell/station/medbay)
 "tT" = (/obj/structure/sign/signnew/web/pcross,/turf/simulated/wall/r_wall,/area/dunwell/station)
 "tU" = (/obj/machinery/light{dir = 8; icon_state = "tube1"; tag = "icon-tube1 (WEST)"},/turf/simulated/floor/lifeweb{dir = 5; icon_state = "brothel"},/area/dunwell/station/brothel)
+"tW" = (/obj/effect/landmark/mapinfo{mapname = "Bridgeford (Map 3)"},/turf/simulated/floor/lifeweb/merch,/area/dunwell/station/smith)
 "tY" = (/obj/item/storage/mail_box,/turf/simulated/wall/r_wall,/area/dunwell/station/smith)
 "ub" = (/obj/structure/lifeweb/s_stone/xsd{dir = 1; icon_state = "aborder1"},/obj/structure/lifeweb/mushroom/glorbmushroom,/turf/simulated/floor/plating/dirt_path,/area/dunwell/station)
 "ud" = (/obj/structure/grille/reinforced,/turf/simulated/floor/lifewebe{icon_state = "asteroid11"},/area/dunwell/surface)
@@ -734,6 +737,7 @@
 "zX" = (/turf/simulated/floor/lifeweb{dir = 4; icon_state = "chapelnew"},/area/dunwell/station/gates)
 "Ab" = (/obj/structure/lifeweb/s_stone/xsd{dir = 1; icon_state = "aborder1"},/obj/structure/sign/signnew/web/pcross,/turf/simulated/wall/r_wall,/area/dunwell/surface)
 "Ad" = (/obj/structure/closet/crate/secure,/turf/simulated/floor/lifeweb/vinte5{dir = 4},/area/dunwell/station/gates)
+"Af" = (/obj/effect/landmark/mapinfo{mapname = "Mini War"},/turf/simulated/floor/lifeweb/merch,/area/dunwell/station/smith)
 "Ag" = (/obj/structure/rack/lwtable/table10end{dir = 4; icon_state = "wood_1tileendtable"; narrow = 1},/obj/item/reagent_containers/glass/bottle/lifeweb/tantalum,/obj/item/reagent_containers/glass/bottle/lifeweb/tantalum,/turf/simulated/floor/lifeweb{dir = 8; icon_state = "bluestone"},/area/dunwell/station/medbay)
 "Ah" = (/obj/structure/sign/signnew/web/firethorn,/turf/simulated/wall/r_wall,/area/dunwell/surface)
 "Ai" = (/obj/structure/elevador/B{dir = 5; icon_state = "elevatori"},/turf/simulated/floor/lifeweb{icon_state = "bbar2"},/area/dunwell/station/train_station_fort)
@@ -924,6 +928,7 @@
 "HB" = (/obj/structure/rack/lwtable/table10end{dir = 8; icon_state = "wood_1tileendtable"; narrow = 1},/obj/item/paper,/turf/simulated/floor/lifeweb{dir = 1; icon_state = "wf2"},/area/library)
 "HD" = (/obj/structure/lifeweb/s_stone/xsd{dir = 5; icon_state = "aborder1"},/obj/structure/lifeweb/mushroom/sadshroom1,/turf/simulated/floor/plating/dirt_path,/area/dunwell/station)
 "HE" = (/obj/item/trash/syndi_cakes,/turf/simulated/floor/lifeweb{icon_state = "23"},/area/dunwell/station/train_station)
+"HF" = (/obj/effect/landmark/mapinfo{mapname = "Lasting Rose (Map 3)"},/turf/simulated/floor/lifeweb/merch,/area/dunwell/station/smith)
 "HG" = (/turf/simulated/floor/lifeweb{dir = 8; icon_state = "grimy"},/area/dunwell/surface)
 "HI" = (/obj/structure/elevador/A{dir = 1; icon_state = "elevatorte"},/turf/simulated/floor/lifeweb{dir = 4; icon_state = "chapelnew"},/area/dunwell/station/train_station_fort)
 "HN" = (/obj/structure/lfwindow/stonewindowopen,/turf/simulated/wall/r_wall,/area/dunwell/surface)
@@ -2526,8 +2531,8 @@ WJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJ
 WJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJQsQsZxZxgcgcoHZjZpgcZxgcgcgcgcgcgcgcgcZxWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJ
 WJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJQsQsZxgcgcgcgcgcgcgcZxZxZxZxiaZxiaZxZxZxWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJ
 WJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJQsQsiagcgcgcgcgcgcgcZxgcgcgcgcgcgcgcgcZxWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJ
-WJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJQsQsZxgcgcgcgcgcgcgcZxgcgcgcgcgcgcgcgcZxWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJ
-WJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJQsQsQsQsZxgcgcgcgcgcgcgcZxgcgcgcgcgcgcgcgcZxWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJ
+WJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJQsQsZxgcgcgcgcgcgcgcZxhHHFdrgcgcgcgcgcZxWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJ
+WJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJQsQsQsQsZxgcgcgcgcgcgcgcZxgctWAfgcgcgcgcgcZxWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJ
 WJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJQsQsvkZxZxZxZxZxiaZxZxZxZxZxZxgcgcgcgcgcgcZxWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJ
 WJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJQsQsZxgcgcgcgcgcgcgcgcgcgcgcZxgcgcgcgcgcgcmCWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJ
 WJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJQsQsZxgcgcgcgcgcgcgcYtgcgcgcZxZxZxZxZxZxZxZxWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJWJ

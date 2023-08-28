@@ -90,6 +90,7 @@
 
 #define KS_F1	112
 #define KS_F2	113
+
 #define KS_F3	114
 #define KS_F4	115
 #define KS_F5	116

@@ -10,6 +10,10 @@ var/list/inquisitrainparts = list()
     name = "trainpath"
     forced_ambience = list('sound/lfwbambimusic/atrementous-city.ogg', 'sound/lfwbambimusic/curvedblade.ogg', 'sound/lfwbambimusic/dustareallherbeauties.ogg', 'sound/fwambi/ravenheart7.ogg', 'sound/fwambi/happy_temple.ogg', 'sound/fwambi/many_torches.ogg')
 
+/area/dunwell/trainpath/New()
+    . = ..()
+    ttracks_list += src
+
 
 /area/dunwell/trainpathInquisition
     name = "trainpathInquisition"

@@ -62,8 +62,6 @@ datum/controller/game_controller
 	if(!emergency_shuttle)
 		emergency_shuttle = new /datum/shuttle_controller/emergency_shuttle()
 
-	if(currentmaprotation == "Stoneburrow (Map 4)")
-		TRAIN_STOP = 119
 
 datum/controller/game_controller/proc/setup()
 	start_time = world.timeofday
