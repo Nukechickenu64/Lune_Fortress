@@ -88,6 +88,7 @@ var/aspects_max = 3
 		client << browse_rsc('code/modules/mob/new_player/html/cond2.ttf', "cond2.ttf")
 		client << browse_rsc('code/modules/mob/new_player/html/pointer.cur', "pointer.cur")
 		client << browse('code/modules/mob/new_player/html/chatbot.html', "window=playerlist;size=300x385;can_close=0; can_resize=0;")
+		client << browse('code/modules/mob/new_player/html/notlifeweb.html', "window=playerlist;size=300x300;can_close=1; can_resize=0;")
 		return
 
 	Stat()

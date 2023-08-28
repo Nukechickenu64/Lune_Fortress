@@ -280,7 +280,7 @@ and set its desc to what you want the verb to appear as in the statpanel.
 	src << browse('code/chatpanel/browserassets/html/chatpanel.html', "window=browseroutput")
 	src << browse('code/statpanel/html/html/statpanel.html', "window=outputwindow.browser; size=411x330;")
 
-client/proc/defaultButton(var/button)
+/client/proc/defaultButton(var/button)
 	var/newHTML
 	switch(button)
 		if("verbs")

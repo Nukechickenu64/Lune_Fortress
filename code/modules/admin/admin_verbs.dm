@@ -11,7 +11,11 @@ var/list/admin_verbs_default = list(
 	/client/proc/cmd_admin_say			/*admin-only ooc chat*/
 	)
 var/list/admin_verbs_admin = list(
-	/client/proc/player_panel,			/*shows an interface for all players, with links to various panels (old style)*/
+	/client/proc/player_panel,
+	/client/proc/ChangeMap,
+	/client/proc/getmapname,
+	/client/proc/counttracks,
+	/client/proc/build,			/*shows an interface for all players, with links to various panels (old style)*/
 	/client/proc/player_panel_new,		/*shows an interface for all players, with links to various panels*/
 	/client/proc/invisimin,				/*allows our mob to go invisible/visible*/
 	/client/proc/toggle_asay_log,

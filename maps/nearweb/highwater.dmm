@@ -26735,6 +26735,12 @@
 	icon_state = "lplatingdmg1"
 	},
 /area/dunwell/station)
+"cmM" = (
+/obj/effect/landmark/mapinfo{
+	mapname = "Lasting Rose (Map 3)"
+	},
+/turf/simulated/floor/plating/dirt,
+/area/dunwell/surface)
 "cmT" = (
 /obj/structure/rack/iron2,
 /obj/item/throwingknife/silver,
@@ -28128,6 +28134,12 @@
 "dRh" = (
 /turf/simulated/wall/r_wall/rust,
 /area/dunwell/station/kitchen/inn)
+"dSo" = (
+/obj/effect/landmark/mapinfo{
+	mapname = "Mini War"
+	},
+/turf/simulated/floor/plating/dirt,
+/area/dunwell/surface)
 "dSx" = (
 /obj/machinery/light/small{
 	brightness_power = 3;
@@ -28544,6 +28556,12 @@
 /obj/structure/lifeweb/statue/green3,
 /turf/simulated/floor/lifeweb/newbar,
 /area/dunwell/station/brothel)
+"emd" = (
+/obj/effect/landmark/mapinfo{
+	mapname = "Bridgeford (Map 2)"
+	},
+/turf/simulated/floor/plating/dirt,
+/area/dunwell/surface)
 "emg" = (
 /obj/structure/rack/lwtable/table10thick{
 	dir = 9
@@ -36736,6 +36754,12 @@
 	icon_state = "bar3"
 	},
 /area/dunwell/station/soulbreaker)
+"oPj" = (
+/obj/effect/landmark/mapinfo{
+	mapname = "Bridgeford (Map 3)"
+	},
+/turf/simulated/floor/plating/dirt,
+/area/dunwell/surface)
 "oSg" = (
 /obj/structure/rack/lwtable/table10thick{
 	dir = 4;
@@ -41214,6 +41238,10 @@
 /obj/item/reagent_containers/food/drinks/flour,
 /turf/simulated/floor/lifeweb/npolar2,
 /area/dunwell/station/bridge)
+"vaC" = (
+/obj/effect/landmark/mapinfo,
+/turf/simulated/floor/plating/dirt,
+/area/dunwell/surface)
 "vbt" = (
 /turf/simulated/floor/lifeweb/vinte3{
 	dir = 6
@@ -129855,8 +129883,8 @@ aao
 aao
 aao
 aao
-olN
-olN
+vaC
+cmM
 aao
 aao
 aao
@@ -130056,9 +130084,9 @@ aao
 aao
 aao
 aao
-olN
-olN
-olN
+dSo
+oPj
+emd
 olN
 olN
 olN

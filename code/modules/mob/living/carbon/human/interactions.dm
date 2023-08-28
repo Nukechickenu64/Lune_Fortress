@@ -1,3 +1,4 @@
+
 #define CONDOM_NONE 0
 #define CONDOM_SMALL 1
 #define CONDOM_REGULAR 2
@@ -1071,8 +1072,8 @@ var/list/cuckoldlist = list()
 	pleasure = 15
 
 /obj/item/dildo/attack(mob/living/carbon/human/M, mob/living/carbon/human/user)
-	var/hasvagina = (M.gender == FEMALE && M.species.genitals && M.species.name != "Unathi" && M.species.name != "Stok" && !M.has_penis())
-	var/hasanus = M.species.anus
+	var/hasvagina = (M.gender == FEMALE && M.species.genitals && M.species.name != "Unathi" && M.species.name != "Stok" && M.species.name != "Child" && !M.has_penis())
+	var/hasanus = (M.species.anus && M.species.name != "Child")
 	var/message = ""
 	if(M.isChild() || user.isChild())
 		return

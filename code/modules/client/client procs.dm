@@ -186,7 +186,7 @@ var/global/max_players = 100
 				notInvited()
 				return
 		if(FALSE)
-			if(!ckeywhitelistweb.Find(src.ckey) && text2num(copytext(src.JoinDate, 1, 5)) >= 2020)
+			if(!ckeywhitelistweb.Find(src.ckey) && text2num(copytext(src.JoinDate, 1, 5)) >= 2024)
 				notInvited()
 				return
 
@@ -251,8 +251,10 @@ var/global/max_players = 100
 
 #ifdef NEARWEB_LIVE
 	if(authenticated)
+		sleep(60)
 		chatOutput.start()
 #else
+	sleep(60)
 	chatOutput.start()
 #endif
 	ambience_playing = FALSE

@@ -15,7 +15,8 @@ var/global/list/gink_last_names = list("Yang","Chi","Chang","Zhao","Huang","Tong
 var/global/list/cable_list = list()					//Index for all cables, so that powernets don't have to look through the entire world all the time
 var/global/list/chemical_reactions_list				//list of all /datum/chemical_reaction datums. Used during chemical reactions
 var/global/list/chemical_reagents_list				//list of all /datum/reagent datums indexed by reagent id. Used by chemistry stuff
-var/global/list/landmarks_list = list()				//list of all landmarks created
+var/global/list/landmarks_list = list()
+var/global/list/ttracks_list = list()				//list of all train tracks created
 var/global/list/lumosoviks_list = list()				//list of all lumosoviks created
 var/global/list/dirt_gen_list = list()				//list of all lumosoviks created
 var/global/list/surgery_steps = list()				//list of all surgery steps  |BS12

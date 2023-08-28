@@ -1,5 +1,5 @@
 /client/proc/loadDataPig()
-	src << browse('code/porco/html/stats.png', "display=0")
+	src << browse('code/porco/html/stats1.png', "display=0")
 	src << browse('code/porco/html/button_chrome.png', "display=0")
 	src << browse('code/porco/html/button_note.png', "display=0")
 	src << browse('code/porco/html/button_options.png', "display=0")
@@ -41,6 +41,7 @@
 
 /client/proc/lobbyPig()
 	src << browse('code/porco/html/lobby.html', "window=infowindow.statsbrowser; size=411x314; titlebar=0; border=0;")
+	loadDataPig()
 
 /client/New()
 	loadDataPig()
