@@ -36,7 +36,7 @@
 #define TGS_NOTIFY_ADMINS(event) message_admins(##event)
 
 /// Write an info `message` to a server log.
-#define TGS_INFO_LOG(message) gam_log("Info", ##message)
+#define TGS_INFO_LOG(message) game_log("Info", ##message)
 
 /// Write an warning `message` to a server log.
 #define TGS_WARNING_LOG(message) warning(##message)
