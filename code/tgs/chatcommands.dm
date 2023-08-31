@@ -20,4 +20,4 @@
 			roundstatus = "Your fortress has been abandoned."
 		else
 			roundstatus = "Story has started."
-	return "<byond://play.nearweb.org:59490> [n] players online - Round Duration: [round(hours)]h [round(mins)]m - [roundstatus]"
+	return "<byond://luneweb.servebeer.com:5643> [n] players online - Round Duration: [round(hours)]h [round(mins)]m - [roundstatus]"
