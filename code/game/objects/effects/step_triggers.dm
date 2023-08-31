@@ -115,3 +115,15 @@
 				A.y = rand(teleport_y, teleport_y_offset)
 				A.z = rand(teleport_z, teleport_z_offset)
 
+/obj/effect/step_trigger/pitfall
+	var/turf/turftoremove
+	anchored = TRUE
+	var/used = FALSE
+
+/obj/effect/step_trigger/pitfall/Crossed(mob/living/carbon/human/H)
+	. = ..()
+	if(used == FALSE)
+		new /turf/simulated/floor/open(H.loc)
+		to_chat(O,"<font color='combat'>[M] falls through \the [src]!</font>")
+		used = TRUE
+	delete(src)

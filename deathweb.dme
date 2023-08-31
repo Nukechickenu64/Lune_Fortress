@@ -1602,7 +1602,10 @@
 #include "interface\skin.dmf"
 
 
-#include "maps\highwater.dmm"
+#include "maps\testmap.dmm"
+
+
+#include "code\unused\traps.dm"
 // END_INCLUDE
 
 

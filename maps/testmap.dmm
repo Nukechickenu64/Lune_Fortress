@@ -1,0 +1,72 @@
+"a" = (/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"b" = (/obj/effect/landmark/start{name = "Magistrate"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"d" = (/obj/effect/landmark/start{name = "Esculap"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"k" = (/obj/effect/landmark/start{name = "Chemsister"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"l" = (/obj/effect/landmark/start{name = "Serpent"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"m" = (/obj/multiz/stairs/active/bottom,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"o" = (/obj/multiz/stairs/active/bottom/wood,/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"r" = (/obj/effect/landmark{name = "JoinLate"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"t" = (/obj/effect/trap,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"u" = (/obj/effect/trap{edge = 20},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"x" = (/obj/effect/landmark/start{name = "Pusher"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"z" = (/obj/effect/landmark/start{name = "Baron"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"A" = (/obj/effect/landmark/start{name = "Charybdis"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"B" = (/obj/structure/fireplace/hearth/lighted,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"C" = (/mob/living/sirenhead,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"D" = (/obj/effect/landmark/start{name = "Amuser"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"E" = (/obj/effect/trap/skinless,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"F" = (/obj/effect/landmark/start{name = "Mortus"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"H" = (/obj/effect/step_trigger/pitfall,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"I" = (/obj/multiz/stairs/active,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"J" = (/obj/structure/fireplace,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"L" = (/obj/effect/step_trigger/thrower,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"P" = (/obj/effect/landmark/start{name = "Bouncer"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"S" = (/obj/effect/landmark/start{name = "Misero"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"U" = (/obj/effect/landmark/start{name = "Scuff"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"V" = (/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"Z" = (/obj/structure/mineral_door/wood,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+
+(1,1,1) = {"
+VVVVVVVVVVVVVVVVVVVV
+VDzPAkdbSFxUlaaaaoVV
+VaaaaaaaaaaaaaaaaIIV
+VaaaBaaaaaaaaaaaaaaV
+VaaaaJaaaaraaaaBaaaV
+VaaaaaaaaaaaaaJaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaCaaEatauaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaJaaaaaaaaV
+VaaaaJaaaaaaaJaaaaaV
+VaaaaaBaaaaaBaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VBaaaaaaaaaaaaaaaaBV
+VVVVVVVVVVVVVVVVVVVV
+"}
+(1,1,2) = {"
+VVVVVVVVVVVVVVVVVVVV
+VJJaaaaaaaaaaaaaZaJV
+VaaaaaaaaaaaaaaaVmmV
+VaaaaaaaaaaaaaaaVVVV
+VaaaaaaaaaaaaaaaJaaV
+VaaaaaaaaaaaaaaaaaaV
+VLHaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaJaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VaaaaaaaaaaaaaaaaaaV
+VJaaaaaaaaaaaaaaaaJV
+VVVVVVVVVVVVVVVVVVVV
+"}

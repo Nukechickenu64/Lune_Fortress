@@ -17,3 +17,5 @@ data/banlist.bdb
 data/game_version.sav
 /nodejs/
 /.vscode/settings.json
+config/dbconfig.txt
+config/dbconfig.txt
