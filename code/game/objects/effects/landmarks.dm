@@ -6,6 +6,8 @@
 	unacidable = 1
 	flammable = 0
 
+/obj/effect/landmark/dungeonmap
+
 /obj/effect/landmark/New()
 
 	..()

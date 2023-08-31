@@ -75,7 +75,8 @@ var/const/SNIFFER			=(1<<20)
 var/const/ASSISTANT			=(1<<21)
 var/const/SIEGER			=(1<<24)
 
-
+var/const/WARRIOR			=(1<<25)
+var/const/ROUGE			=(1<<25)
 
 
 var/list/assistant_occupations = list(
@@ -148,6 +149,10 @@ var/list/civilian_positions = list(
 	"Boozehound"
 )
 
+var/list/dungeon_positions = list(
+	"Warrior",
+	"Rogue"
+)
 
 var/list/security_positions = list(
 	"Marduk",

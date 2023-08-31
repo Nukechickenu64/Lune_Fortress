@@ -124,6 +124,6 @@
 	. = ..()
 	if(used == FALSE)
 		new /turf/simulated/floor/open(H.loc)
-		to_chat(O,"<font color='combat'>[M] falls through \the [src]!</font>")
+		to_chat(H,"<font color='combat'>[H] falls through \the [src]!</font>")
 		used = TRUE
 	delete(src)

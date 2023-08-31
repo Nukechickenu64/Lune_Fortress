@@ -362,6 +362,8 @@ var/global/max_players = 100
 				work_chosen = "Pusher"
 			if(HOBO)
 				work_chosen = "Bum"
+			if(WARRIOR)
+				work_chosen = "Warrior"
 			if(APPRENTICE)
 				work_chosen = "Apprentice"
 			if(SERVANT)
@@ -499,6 +501,8 @@ var/global/max_players = 100
 					work_chosen = "Pusher"
 				if(HOBO)
 					work_chosen = "Bum"
+				if(WARRIOR)
+					work_chosen = "Warrior"
 				if(APPRENTICE)
 					work_chosen = "Apprentice"
 				if(SERVANT)
@@ -636,6 +640,8 @@ var/global/max_players = 100
 						work_chosen = "Pusher"
 					if(HOBO)
 						work_chosen = "Bum"
+					if(WARRIOR)
+						work_chosen = "Warrior"
 					if(APPRENTICE)
 						work_chosen = "Apprentice"
 					if(SERVANT)

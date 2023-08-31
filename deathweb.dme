@@ -326,6 +326,7 @@
 #include "code\game\jobs\job\civilian.dm"
 #include "code\game\jobs\job\civilian_chaplain.dm"
 #include "code\game\jobs\job\donors.dm"
+#include "code\game\jobs\job\dungeoneer.dm"
 #include "code\game\jobs\job\engineering.dm"
 #include "code\game\jobs\job\geschef.dm"
 #include "code\game\jobs\job\job.dm"
@@ -1602,7 +1603,7 @@
 #include "interface\skin.dmf"
 
 
-#include "maps\testmap.dmm"
+#include "maps\highwater.dmm"
 
 
 #include "code\unused\traps.dm"

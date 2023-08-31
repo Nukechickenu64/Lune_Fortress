@@ -1,6 +1,7 @@
 "a" = (/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"b" = (/obj/effect/landmark/start{name = "Magistrate"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"b" = (/obj/effect/landmark/start{name = "Warrior"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "d" = (/obj/effect/landmark/start{name = "Esculap"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"j" = (/obj/item/clothing/suit/armor/vest/iron_plate,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "k" = (/obj/effect/landmark/start{name = "Chemsister"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "l" = (/obj/effect/landmark/start{name = "Serpent"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "m" = (/obj/multiz/stairs/active/bottom,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
@@ -20,7 +21,9 @@
 "I" = (/obj/multiz/stairs/active,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "J" = (/obj/structure/fireplace,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "L" = (/obj/effect/step_trigger/thrower,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"N" = (/obj/item/clothing/suit/armor/vest/aplate,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "P" = (/obj/effect/landmark/start{name = "Bouncer"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Q" = (/obj/item/clothing/under/psysuit,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "S" = (/obj/effect/landmark/start{name = "Misero"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "U" = (/obj/effect/landmark/start{name = "Scuff"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "V" = (/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
@@ -28,7 +31,7 @@
 
 (1,1,1) = {"
 VVVVVVVVVVVVVVVVVVVV
-VDzPAkdbSFxUlaaaaoVV
+VDzPAkdbSFxUlbaaaoVV
 VaaaaaaaaaaaaaaaaIIV
 VaaaBaaaaaaaaaaaaaaV
 VaaaaJaaaaraaaaBaaaV
@@ -52,8 +55,8 @@ VVVVVVVVVVVVVVVVVVVV
 VVVVVVVVVVVVVVVVVVVV
 VJJaaaaaaaaaaaaaZaJV
 VaaaaaaaaaaaaaaaVmmV
-VaaaaaaaaaaaaaaaVVVV
-VaaaaaaaaaaaaaaaJaaV
+VaQaaaaaaaaaaaaaVVVV
+VaNjaaaaaaaaaaaaJaaV
 VaaaaaaaaaaaaaaaaaaV
 VLHaaaaaaaaaaaaaaaaV
 VaaaaaaaaaaaaaaaaaaV

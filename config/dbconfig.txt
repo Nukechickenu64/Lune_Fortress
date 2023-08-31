@@ -1,5 +1,5 @@
 address 127.0.0.1
 port 3306
-database deathweb
-login deathwebuser
-password deathwebuser1
+database ss13server
+login server
+password nukechick64
