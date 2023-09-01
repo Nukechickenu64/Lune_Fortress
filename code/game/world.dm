@@ -82,8 +82,6 @@ var/rtlog_path
 	spawn(3000)		//so we aren't adding to the round-start lag
 		if(config.ToRban)
 			ToRban_autoupdate()
-	if(locate(/obj/effect/landmark/dungeonmap))
-		job_master.AddOccupations("DungeonParty")
 
 #undef RECOMMENDED_VERSION
 

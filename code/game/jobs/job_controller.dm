@@ -16,6 +16,8 @@ var/global/thanatiWords = list()
 
 	proc/SetupOccupations(var/faction = "Station")
 		occupations = list()
+		if(locate(/obj/effect/landmark/dungeonmap))
+			faction = "DungeonParty"
 		var/list/all_jobs = typesof(/datum/job)
 		if(!all_jobs.len)
 			world << "\red \b Error setting up jobs, no job datums found"

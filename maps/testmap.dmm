@@ -27,6 +27,7 @@
 "S" = (/obj/effect/landmark/start{name = "Misero"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "U" = (/obj/effect/landmark/start{name = "Scuff"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "V" = (/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"W" = (/obj/effect/landmark/dungeonmap,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Z" = (/obj/structure/mineral_door/wood,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 
 (1,1,1) = {"
@@ -48,7 +49,7 @@ VaaaaaaaaaaaaaaaaaaV
 VaaaaaaaaaaaaaaaaaaV
 VaaaaaaaaaaaaaaaaaaV
 VaaaaaaaaaaaaaaaaaaV
-VBaaaaaaaaaaaaaaaaBV
+VBWaaaaaaaaaaaaaaaBV
 VVVVVVVVVVVVVVVVVVVV
 "}
 (1,1,2) = {"

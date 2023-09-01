@@ -14,6 +14,7 @@ var/list/admin_verbs_admin = list(
 	/client/proc/player_panel,
 	/client/proc/ChangeMap,
 	/client/proc/getmapname,
+	/client/proc/checkjobs,
 	/client/proc/counttracks,
 	/client/proc/build,			/*shows an interface for all players, with links to various panels (old style)*/
 	/client/proc/player_panel_new,		/*shows an interface for all players, with links to various panels*/

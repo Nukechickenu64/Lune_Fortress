@@ -1132,3 +1132,9 @@ proc/GetMapInfo()
 	set category  = "Admin"
 	var/obj/effect/landmark/mapinfo/MF = locate(/obj/effect/landmark/mapinfo/)
 	message_admins(MF.trainstop)
+
+/client/proc/checkjobs()
+	set name = "jobscheck"
+	set category  = "Admin"
+	var/occupations = list2text(job_master.occupations)
+	message_admins(occupations)
