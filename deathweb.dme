@@ -1604,7 +1604,7 @@
 #include "interface\skin.dmf"
 
 
-#include "maps\highwater.dmm"
+#include "maps\\dungeons\TombOfClyde.dmm"
 
 
 #include "code\unused\traps.dm"

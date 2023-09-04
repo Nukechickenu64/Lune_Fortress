@@ -43,7 +43,6 @@
 		H.voicetype = "noble"
 		H.equip_to_slot_or_del(new /obj/item/clothing/under/rank/security(H), slot_w_uniform)
 		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/merc_boots(H), slot_shoes)
-		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/merc_boots(H), slot_shoes)
 		H.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/vest/iron_breastplate, slot_wear_suit)
 		H.equip_to_slot_or_del(new /obj/item/claymore/gladius, slot_belt)
 		H.equip_to_slot_or_del(new /obj/item/shield/wood, slot_back)
