@@ -127,3 +127,8 @@
 		to_chat(H,"<font color='combat'>[H] falls through \the [src]!</font>")
 		used = TRUE
 	delete(src)
+
+/obj/effect/step_trigger/endzone/Crossed(mob/living/carbon/human/H)
+	. = ..()
+	if(H.ckey)
+		roundendready = TRUE

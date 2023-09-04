@@ -1,76 +1,142 @@
-"a" = (/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"b" = (/obj/effect/landmark/start{name = "Warrior"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"d" = (/obj/effect/landmark/start{name = "Esculap"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"j" = (/obj/item/clothing/suit/armor/vest/iron_plate,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"k" = (/obj/effect/landmark/start{name = "Chemsister"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"l" = (/obj/effect/landmark/start{name = "Serpent"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"m" = (/obj/multiz/stairs/active/bottom,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"o" = (/obj/multiz/stairs/active/bottom/wood,/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
-"r" = (/obj/effect/landmark{name = "JoinLate"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"t" = (/obj/effect/trap,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"u" = (/obj/effect/trap{edge = 20},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"x" = (/obj/effect/landmark/start{name = "Pusher"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"z" = (/obj/effect/landmark/start{name = "Baron"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"A" = (/obj/effect/landmark/start{name = "Charybdis"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"B" = (/obj/structure/fireplace/hearth/lighted,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"C" = (/mob/living/sirenhead,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"D" = (/obj/effect/landmark/start{name = "Amuser"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"E" = (/obj/effect/trap/skinless,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"F" = (/obj/effect/landmark/start{name = "Mortus"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"H" = (/obj/effect/step_trigger/pitfall,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"I" = (/obj/multiz/stairs/active,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"J" = (/obj/structure/fireplace,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"L" = (/obj/effect/step_trigger/thrower,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"N" = (/obj/item/clothing/suit/armor/vest/aplate,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"P" = (/obj/effect/landmark/start{name = "Bouncer"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"Q" = (/obj/item/clothing/under/psysuit,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"S" = (/obj/effect/landmark/start{name = "Misero"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"U" = (/obj/effect/landmark/start{name = "Scuff"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"V" = (/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
-"W" = (/obj/effect/landmark/dungeonmap,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
-"Z" = (/obj/structure/mineral_door/wood,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"ab" = (/obj/effect/landmark{name = "JoinLate"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"aC" = (/obj/item/device/pda,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"aE" = (/obj/item/clothing/under/rank/warden,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"bb" = (/obj/structure/mineral_door/wood,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"bT" = (/obj/item/clothing/under/tactical,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"bZ" = (/obj/item/clothing/under/rank/security/corp,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"dV" = (/obj/effect/landmark/start{name = "Rogue"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"ek" = (/obj/item/storage/backpack/capelp,/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"fk" = (/obj/item/clothing/under/rank/miner,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"fK" = (/obj/item/clothing/under/rank/security/alternative,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"ha" = (/obj/item/gun/projectile/automatic/new_rifle/kabal,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"hM" = (/obj/item/clothing/head/amulet/holy/cross/old,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"iA" = (/obj/effect/landmark/start{name = "Warrior"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"jn" = (/obj/item/card/id/mortician,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"jS" = (/obj/item/ore/lw/woodbundle,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"jY" = (/obj/item/reagent_containers/glass/bottle/cwine,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"lz" = (/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"mC" = (/obj/structure/fireplace,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"mM" = (/obj/item/card/id/syndicate,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"nY" = (/obj/item/clothing/under/rank/head_of_security/jensen,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"qi" = (/obj/item/staffoflaw,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"qj" = (/turf/simulated/floor/open,/area/dunwell/surface)
+"ql" = (/obj/item/staffoflaw/zeus,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"rf" = (/obj/effect/trap,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"rg" = (/obj/item/clothing/under/rank/security/triton,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"si" = (/obj/item/clothing/head/amulet/lechery,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"sx" = (/obj/item/storage/pill_bottle/mdma,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"sT" = (/obj/item/melee/classic_baton/staff,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"sZ" = (/obj/item/card/id/med,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"ta" = (/obj/item/daggerssheath/iron,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"th" = (/obj/item/gun/projectile/automatic/new_rifle/lakko,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"tD" = (/obj/item/ammo_magazine/external/sm45,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"ub" = (/obj/effect/landmark/start{name = "Bard"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"uf" = (/obj/item/musical_instrument/baliset/balalaika,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"uB" = (/obj/item/ammo_magazine/external/sm45/pusher/full,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"vo" = (/obj/item/gun/projectile/automatic/new_rifle/thanatikabal,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"vX" = (/obj/item/reagent_containers/glass/bottle/swine,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"wz" = (/obj/effect/trap/skinless,/obj/item/ammo_magazine/external/drum_kabal,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"wE" = (/obj/item/storage/backpack/capelp,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"wO" = (/obj/item/gun/projectile/automatic/new_rifle/pulse_rifle,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"wT" = (/obj/item/ammo_casing/a762,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"wU" = (/obj/item/staff,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"xp" = (/obj/item/storage/pill_bottle/mice69,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"xJ" = (/obj/item/card/id/white,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"xY" = (/obj/effect/landmark/start{name = "Monk"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"yb" = (/obj/item/staff/stick,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"yc" = (/obj/multiz/stairs/active/bottom,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"ye" = (/obj/item/arrow,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"yT" = (/obj/effect/landmark/start{name = "Barbarian"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"yX" = (/obj/item/gun/projectile/shotgun/princess,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"zb" = (/obj/item/roller,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"zh" = (/obj/item/clothing/under/rank/soulbreaker,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"zt" = (/obj/item/reagent_containers/glass/bottle/vwine,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Am" = (/obj/item/ammo_magazine/internal/princmk1,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Bb" = (/obj/item/card/id/atmos,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"BD" = (/obj/item/reagent_containers/glass/bottle/wine,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"BH" = (/obj/item/musical_instrument/bayan,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Co" = (/obj/item/card/id/heatlab,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"CA" = (/obj/item/clothing/suit/armor/vest/iron_plate,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"CU" = (/obj/item/card/id/hos,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Eg" = (/obj/item/card/id/viro,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Eo" = (/obj/item/musical_instrument/baliset/guitar,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Fh" = (/obj/item/clothing/under/urchin,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Fm" = (/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"Fn" = (/obj/item/storage/backpack/svalinncloak,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"GM" = (/obj/item/clothing/under/rank/migrant/pusher,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"GP" = (/obj/item/staff/broom,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Hh" = (/obj/item/daggerssheath,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Iu" = (/obj/effect/step_trigger/endzone,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Iy" = (/obj/multiz/stairs/active/bottom/wood,/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"IW" = (/obj/item/clothing/under/trackpants,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"JA" = (/obj/structure/fortune/veilpillar,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Ki" = (/mob/living/sirenhead,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Lc" = (/obj/item/storage/backpack/beltsatchel,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Lo" = (/obj/item/gun/projectile/shotgun/princessm1,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"LC" = (/obj/item/card/id/hydro,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Md" = (/obj/effect/step_trigger/pitfall,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"MB" = (/obj/item/reagent_containers/food/snacks/breadsys/salamistick,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"MH" = (/obj/item/reagent_containers/food/snacks/breadsys/ontop/salami,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Ou" = (/obj/item/musical_instrument/baliset,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"PA" = (/obj/effect/trap{edge = 20},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"PQ" = (/obj/effect/landmark/start,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Qa" = (/obj/effect/landmark/start{name = "Paladin"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"QO" = (/obj/item/ammo_magazine/box/c45,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"QY" = (/obj/item/reagent_containers/glass/bottle/pwine,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Rm" = (/obj/item/clothing/under/psysuit,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"RJ" = (/obj/item/clothing/under/rank/warden/corp,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Ts" = (/obj/item/clothing/suit/armor/vest/aplate,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"UD" = (/obj/item/clothing/under/shorts/black,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"UN" = (/obj/item/reagent_containers/glass/beaker/bowl,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"VH" = (/obj/multiz/stairs/active,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Ww" = (/obj/item/clothing/under/rank/vice,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"WE" = (/obj/effect/landmark/dungeonmap,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Xf" = (/obj/structure/fireplace/hearth/lighted,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Yy" = (/obj/item/ammo_magazine/internal/princ,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"YL" = (/obj/item/card/id/gold,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"ZZ" = (/obj/item/clothing/under/rank/clown,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 
 (1,1,1) = {"
-VVVVVVVVVVVVVVVVVVVV
-VDzPAkdbSFxUlbaaaoVV
-VaaaaaaaaaaaaaaaaIIV
-VaaaBaaaaaaaaaaaaaaV
-VaaaaJaaaaraaaaBaaaV
-VaaaaaaaaaaaaaJaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaCaaEatauaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaJaaaaaaaaV
-VaaaaJaaaaaaaJaaaaaV
-VaaaaaBaaaaaBaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VBWaaaaaaaaaaaaaaaBV
-VVVVVVVVVVVVVVVVVVVV
+FmFmFmekFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFm
+FmubiAdVyTxYQaPQPQPQPQPQPQlzlzlzlzIyFmFm
+FmlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzVHVHFm
+FmybqiqlXfwElzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmwUGPlzsTmClzlzlzlzablzlzlzlzXflzlzlzFm
+FmBbYLIWzblzlzlzlzlzlzlzlzlzmClzlzlzlzFm
+FmCUColzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmLCsZjnlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmxJEgmMKiFnZZwzLcrflzPAlzlzlzlzlzlzlzFm
+FmaCyexpsxwTGMhathwOvolzlzlzlzlzlzlzlzFm
+FmbZzhWwRJyXfkYyQOuBlzlzlzlzlzlzlzlzlzFm
+FmrgfKaEUDLolzAmtDlzmClzlzlzlzlzlzlzlzFm
+FmlznYbTlzmClzlzlzlzlzlzlzmClzlzlzlzlzFm
+FmlzFhtalzlzXflzlzlzlzlzXflzlzlzlzlzlzFm
+FmlzlzHhlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmlzOuufEoBHlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmXfWEFmlzFmlzlzlzlzlzlzlzlzlzlzlzlzXfFm
+FmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFm
 "}
 (1,1,2) = {"
-VVVVVVVVVVVVVVVVVVVV
-VJJaaaaaaaaaaaaaZaJV
-VaaaaaaaaaaaaaaaVmmV
-VaQaaaaaaaaaaaaaVVVV
-VaNjaaaaaaaaaaaaJaaV
-VaaaaaaaaaaaaaaaaaaV
-VLHaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaJaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VaaaaaaaaaaaaaaaaaaV
-VJaaaaaaaaaaaaaaaaJV
-VVVVVVVVVVVVVVVVVVVV
+FmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFm
+FmmCmClzlzlzlzlzlzlzlzlzlzlzlzlzbblzmCFm
+FmlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFmycycFm
+FmlzRmlzlzlzlzlzlzlzlzlzlzlzlzlzFmFmFmFm
+FmlzTsCAlzlzlzlzlzlzlzlzlzlzlzlzmClzlzFm
+FmlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmlzMdlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmqjqjlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmqjqjJAsilzlzlzlzmClzlzlzlzlzlzlzlzlzFm
+FmqjqjhMUNMHjSjYvXlzlzlzlzlzlzlzlzlzlzFm
+FmqjqjlzlzlzMBQYztBDlzlzlzlzlzlzlzlzlzFm
+FmqjqjlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmqjqjlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmqjqjqjlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmqjqjqjlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmqjqjqjlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmlzqjqjlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmmCqjlzqjlzlzlzlzlzlzlzlzlzIuIuIuIumCFm
+FmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFm
 "}

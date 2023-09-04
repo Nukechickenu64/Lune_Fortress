@@ -49,7 +49,7 @@ var/const/FACKID			=(1<<17)
 var/const/GANGER			=(1<<18)
 var/const/HAG				=(1<<19)
 
-var/const/CIVILIAN			=(1<<2)
+var/const/CIVILIAN			=(1<<3)
 
 var/const/HOP				=(1<<0)
 var/const/BARTENDER			=(1<<1)
@@ -74,9 +74,23 @@ var/const/MORTUS			=(1<<19)
 var/const/SNIFFER			=(1<<20)
 var/const/ASSISTANT			=(1<<21)
 var/const/SIEGER			=(1<<22)
-var/const/WARRIOR			=(1<<1.1)
-var/const/ROGUE				=(1<<1.2)
 
+var/const/DUNGEONEER		=(1<<6)
+
+var/const/WARRIOR			=(1<<1)
+var/const/CLERIC			=(1<<2)
+var/const/WIZARD			=(1<<3)
+var/const/BARBARIAN			=(1<<4)
+var/const/RANGER			=(1<<6)
+var/const/DRUID				=(1<<7)
+var/const/MONK				=(1<<8)
+var/const/PALADIN			=(1<<9)
+var/const/WARLOCK			=(1<<10)
+var/const/ARTIFICER			=(1<<11)
+var/const/ROGUE				=(1<<12)
+var/const/BARD				=(1<<13)
+var/const/SOJOURNER			=(1<<14)
+var/const/PRISONER			=(1<<15)
 
 var/list/assistant_occupations = list(
 )
@@ -147,7 +161,17 @@ var/list/civilian_positions = list(
 	"Ganger",
 	"Boozehound",
 	"Warrior",
-	"Rogue"
+	"Rogue",
+	"Wizard",
+	"Bard",
+	"Barbarian",
+	"Ranger",
+	"Druid",
+	"Monk",
+	"Paladin",
+	"Warlock",
+	"Artificer",
+	"Cleric"
 )
 
 var/list/security_positions = list(
@@ -163,4 +187,21 @@ var/list/nonhuman_positions = list(
 	"AI",
 	"Cyborg",
 	"pAI"
+)
+
+var/list/dungeon_positions = list(
+	"Warrior",
+	"Rogue",
+	"Wizard",
+	"Bard",
+	"Barbarian",
+	"Ranger",
+	"Druid",
+	"Monk",
+	"Paladin",
+	"Warlock",
+	"Artificer",
+	"Cleric",
+	"Prisoner",
+	"Sojourner"
 )

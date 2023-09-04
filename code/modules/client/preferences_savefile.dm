@@ -186,6 +186,10 @@
 	S["job_engsec_high"]	>> job_engsec_high
 	S["job_engsec_med"]		>> job_engsec_med
 	S["job_engsec_low"]		>> job_engsec_low
+	S["job_dungeon_high"]	>> job_dungeon_high
+	S["job_dungeon_med"]	>> job_dungeon_med
+	S["job_dungeon_low"]	>> job_dungeon_low
+
 
 	//Flavour Text
 	S["flavor_texts_general"]	>> flavor_texts["general"]
@@ -266,6 +270,10 @@
 	job_engsec_high = sanitize_integer(job_engsec_high, 0, 65535, initial(job_engsec_high))
 	job_engsec_med = sanitize_integer(job_engsec_med, 0, 65535, initial(job_engsec_med))
 	job_engsec_low = sanitize_integer(job_engsec_low, 0, 65535, initial(job_engsec_low))
+	job_dungeon_high = sanitize_integer(job_dungeon_high, 0, 65535, initial(job_dungeon_high))
+	job_dungeon_med = sanitize_integer(job_dungeon_med, 0, 65535, initial(job_dungeon_med))
+	job_dungeon_low = sanitize_integer(job_dungeon_low, 0, 65535, initial(job_dungeon_low))
+
 
 	if(isnull(disabilities)) disabilities = 0
 	if(!organ_data) src.organ_data = list()
@@ -327,6 +335,9 @@
 	S["job_engsec_high"]	<< job_engsec_high
 	S["job_engsec_med"]		<< job_engsec_med
 	S["job_engsec_low"]		<< job_engsec_low
+	S["job_dungeon_high"]	<< job_dungeon_high
+	S["job_dungeon_med"]	<< job_dungeon_med
+	S["job_dungeon_low"]	<< job_dungeon_low
 
 	//Miscellaneous
 	S["med_record"]			<< med_record

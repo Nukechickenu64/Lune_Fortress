@@ -365,3 +365,20 @@
 		var/list/targets = list(user)
 		targets += range(2, src)
 		afterattack(pick(targets), user)
+
+/obj/item/gun/projectile/shotgun/princess/attackby(obj/item/stack/bullets/W, mob/living/carbon/human/user)
+	. = ..()
+	if(W.type == stacktype && magazine.max_ammo > magazine.stored_ammo.len)
+		magazine.give_round(new /obj/item/ammo_casing/a762)
+		W.amount -= 1
+		playsound(src.loc, load_shell_sound, 70, 0)
+		if(W.amount <= 0)
+			del(W)
+
+/obj/item/gun/projectile/shotgun/princess/attackby(obj/item/ammo_casing/W, mob/living/carbon/human/user)
+	. = ..()
+	if(W.type == stacktype && magazine.max_ammo > magazine.stored_ammo.len)
+		if(W.stack_type == stacktype)
+			magazine.give_round(W)
+			playsound(src.loc, load_shell_sound, 70, 0)
+			del(W)

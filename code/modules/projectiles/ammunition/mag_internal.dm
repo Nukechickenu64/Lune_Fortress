@@ -110,3 +110,10 @@
 	ammo_type = /obj/item/ammo_casing/shotgun/improvised
 	caliber = ".12"
 	max_ammo = 1
+
+
+/obj/item/ammo_magazine/internal/princ
+	name = "princess internal magazine"
+	ammo_type = /obj/item/stack/bullets/rifle
+	caliber = ".762"
+	max_ammo = 9

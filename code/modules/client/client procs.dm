@@ -362,8 +362,6 @@ var/global/max_players = 100
 				work_chosen = "Pusher"
 			if(HOBO)
 				work_chosen = "Bum"
-			if(WARRIOR)
-				work_chosen = "Warrior"
 			if(APPRENTICE)
 				work_chosen = "Apprentice"
 			if(SERVANT)
@@ -474,6 +472,36 @@ var/global/max_players = 100
 				work_chosen = "Praetor"
 			if(CONSYTE)
 				work_chosen = "Consyte"
+	else if((src.prefs.job_dungeon_high))
+		switch(src.prefs.job_dungeon_high)
+			if(BARD)
+				work_chosen = "Bard"
+			if(PALADIN)
+				work_chosen = "Paladin"
+			if(CLERIC)
+				work_chosen = "Cleric"
+			if(WARRIOR)
+				work_chosen = "Warrior"
+			if(WIZARD)
+				work_chosen = "Wizard"
+			if(ROGUE)
+				work_chosen = "Rouge"
+			if(WARLOCK)
+				work_chosen = "Warlock"
+			if(MONK)
+				work_chosen = "Monk"
+			if(DRUID)
+				work_chosen = "Druid"
+			if(ARTIFICER)
+				work_chosen = "Artificer"
+			if(RANGER)
+				work_chosen = "Ranger"
+			if(BARBARIAN)
+				work_chosen = "Barbarian"
+			if(SOJOURNER)
+				work_chosen = "Sojourner"
+			if(PRISONER)
+				work_chosen = "Prisoner"
 	else
 		if(src.prefs.job_civilian_med)
 			switch(src.prefs.job_civilian_med)
@@ -501,8 +529,6 @@ var/global/max_players = 100
 					work_chosen = "Pusher"
 				if(HOBO)
 					work_chosen = "Bum"
-				if(WARRIOR)
-					work_chosen = "Warrior"
 				if(APPRENTICE)
 					work_chosen = "Apprentice"
 				if(SERVANT)
@@ -613,6 +639,36 @@ var/global/max_players = 100
 					work_chosen = "Praetor"
 				if(CONSYTE)
 					work_chosen = "Consyte"
+		else if((src.prefs.job_dungeon_med))
+			switch(src.prefs.job_dungeon_med)
+				if(BARD)
+					work_chosen = "Bard"
+				if(PALADIN)
+					work_chosen = "Paladin"
+				if(CLERIC)
+					work_chosen = "Cleric"
+				if(WARRIOR)
+					work_chosen = "Warrior"
+				if(WIZARD)
+					work_chosen = "Wizard"
+				if(ROGUE)
+					work_chosen = "Rouge"
+				if(WARLOCK)
+					work_chosen = "Warlock"
+				if(MONK)
+					work_chosen = "Monk"
+				if(DRUID)
+					work_chosen = "Druid"
+				if(ARTIFICER)
+					work_chosen = "Artificer"
+				if(RANGER)
+					work_chosen = "Ranger"
+				if(BARBARIAN)
+					work_chosen = "Barbarian"
+				if(SOJOURNER)
+					work_chosen = "Sojourner"
+				if(PRISONER)
+					work_chosen = "Prisoner"
 		else
 			if(src.prefs.job_civilian_low)
 				switch(src.prefs.job_civilian_low)
@@ -640,8 +696,6 @@ var/global/max_players = 100
 						work_chosen = "Pusher"
 					if(HOBO)
 						work_chosen = "Bum"
-					if(WARRIOR)
-						work_chosen = "Warrior"
 					if(APPRENTICE)
 						work_chosen = "Apprentice"
 					if(SERVANT)
@@ -752,6 +806,36 @@ var/global/max_players = 100
 						work_chosen = "Praetor"
 					if(CONSYTE)
 						work_chosen = "Consyte"
+			else if((src.prefs.job_dungeon_low))
+				switch(src.prefs.job_dungeon_low)
+					if(BARD)
+						work_chosen = "Bard"
+					if(PALADIN)
+						work_chosen = "Paladin"
+					if(CLERIC)
+						work_chosen = "Cleric"
+					if(WARRIOR)
+						work_chosen = "Warrior"
+					if(WIZARD)
+						work_chosen = "Wizard"
+					if(ROGUE)
+						work_chosen = "Rouge"
+					if(WARLOCK)
+						work_chosen = "Warlock"
+					if(MONK)
+						work_chosen = "Monk"
+					if(DRUID)
+						work_chosen = "Druid"
+					if(ARTIFICER)
+						work_chosen = "Artificer"
+					if(RANGER)
+						work_chosen = "Ranger"
+					if(BARBARIAN)
+						work_chosen = "Barbarian"
+					if(SOJOURNER)
+						work_chosen = "Sojourner"
+					if(PRISONER)
+						work_chosen = "Prisoner"
 		//work_chosen = "Unknown"
 
 /client/New()
@@ -764,3 +848,4 @@ var/global/max_players = 100
 	src << link("https://wiki.nearweb.org/images/6/69/Not_invited.jpg")
 	src << 'sound/not_invited.ogg'
 	del(src)
+

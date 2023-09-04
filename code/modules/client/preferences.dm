@@ -107,6 +107,10 @@ var/const/MAX_SAVE_SLOTS = 15
 	var/job_civilian_med = 0
 	var/job_civilian_low = 0
 
+	var/job_dungeon_high = 0
+	var/job_dungeon_med = 0
+	var/job_dungeon_low = 0
+
 	var/job_medsci_high = 0
 	var/job_medsci_med = 0
 	var/job_medsci_low = 0
@@ -526,6 +530,10 @@ var/const/MAX_SAVE_SLOTS = 15
 		job_civilian_med = 0
 		job_civilian_low = 0
 
+		job_dungeon_high = 0
+		job_dungeon_med = 0
+		job_dungeon_low = 0
+
 		job_medsci_high = 0
 		job_medsci_med = 0
 		job_medsci_low = 0
@@ -563,6 +571,14 @@ var/const/MAX_SAVE_SLOTS = 15
 						return job_engsec_med
 					if(3)
 						return job_engsec_low
+			if(DUNGEONEER)
+				switch(level)
+					if(1)
+						return job_dungeon_high
+					if(2)
+						return job_dungeon_med
+					if(3)
+						return job_dungeon_low
 		return 0
 
 	proc/SetJobDepartment(var/datum/job/job, var/level)
@@ -572,14 +588,18 @@ var/const/MAX_SAVE_SLOTS = 15
 				job_civilian_high = 0
 				job_medsci_high = 0
 				job_engsec_high = 0
+				job_dungeon_high = 0
 				return 1
 			if(2)//Set current highs to med, then reset them
 				job_civilian_med |= job_civilian_high
 				job_medsci_med |= job_medsci_high
 				job_engsec_med |= job_engsec_high
+				job_dungeon_med |= job_dungeon_high
 				job_civilian_high = 0
 				job_medsci_high = 0
 				job_engsec_high = 0
+				job_dungeon_high = 0
+
 
 		switch(job.department_flag)
 			if(CIVILIAN)
@@ -592,6 +612,16 @@ var/const/MAX_SAVE_SLOTS = 15
 						job_civilian_low &= ~job.flag
 					else
 						job_civilian_low |= job.flag
+			if(DUNGEONEER)
+				switch(level)
+					if(2)
+						job_dungeon_high = job.flag
+						job_dungeon_med &= ~job.flag
+					if(3)
+						job_dungeon_med |= job.flag
+						job_dungeon_low &= ~job.flag
+					else
+						job_dungeon_low |= job.flag
 			if(MEDSCI)
 				switch(level)
 					if(2)

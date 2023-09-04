@@ -342,6 +342,7 @@
 #include "code\game\jobs\job\migrants\pathfinder\skills.dm"
 #include "code\game\jobs\job\Siegers\noble.dm"
 #include "code\game\jobs\job\Siegers\sieger.dm"
+#include "code\game\jobs\job\spells\healing.dm"
 #include "code\game\machinery\adv_med.dm"
 #include "code\game\machinery\ai_slipper.dm"
 #include "code\game\machinery\airlock_control.dm"
