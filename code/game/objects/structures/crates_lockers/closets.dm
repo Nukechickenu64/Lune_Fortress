@@ -95,7 +95,7 @@
 
 	if(hastrap && !firstopen)
 		if(prob(trapprob))
-			var/monster = pick(/mob/living/carbon/human/monster/strygh)
+			var/monster = pick(/mob/living/carbon/human/monster/skeleton)
 			new monster(src.loc)
 
 	src.dump_contents()
