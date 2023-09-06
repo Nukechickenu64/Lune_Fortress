@@ -1,15 +1,14 @@
-/mob/living/carbon/human/proc/minorheal()
-	set hidden = 0
-	set name = "MinorHeal"
-	set desc="Minor Heal"
-	set category = "cross"
+/obj/item/spellorb/sheal
+	name = "small heal spell"
+	desc = "use this on someone to heal them"
+	var/timer = 0
 
-	if(stat) return
-
-	if(istype(src.get_active_hand(), /obj/item/grab/wrench))
-		var/obj/item/grab/wrench/W = get_active_hand()
-		var/mob/living/carbon/human/H = W.affecting
-		H.heal_overall_damage(10,10)
-		to_chat(src, "You have healed [H.name].")
-		message_admins("worked")
-		to_chat(H, "You have been healed by [src.name]")
+/obj/item/spellorb/sheal/attack(mob/living/M, mob/living/user, def_zone, special)
+	. = ..()
+	if(world.time >= timer)
+		M.heal_overall_damage(10, 10)
+		to_chat(user,"you healed [M]")
+		to_chat(M,"you feel a tingling sensation around your wounds")
+		timer = world.time + 300
+	else
+		to_chat(user,"you need to wait a bit to cast this again")

@@ -408,11 +408,9 @@
 		..()
 		H.equip_to_slot_or_del(new /obj/item/clothing/under/rank/chaplain(H), slot_w_uniform)
 		H.equip_to_slot_or_del(new /obj/item/storage/backpack/svalinncloak(H), slot_back)
-		H.equip_to_slot_or_del(new /obj/item/(H), slot_l_hand)
-		H.equip_to_slot_or_del(new /obj/item/sheath(H), slot_belt)
+		H.equip_to_slot_or_del(new /obj/item/sheath/claymore(H), slot_belt)
 		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/paladin(H), slot_shoes)
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/amulet/holy/cross/gcopper, slot_r_hand)
-		H.equip_to_slot_or_del(new /obj/item/claymore/silver, slot_l_hand)
 		H.equip_to_slot_or_del(new /obj/item/clothing/wrist/bracer/gold, slot_wrist_l)
 		H.equip_to_slot_or_del(new /obj/item/clothing/wrist/bracer/gold, slot_wrist_r)
 		H.terriblethings = TRUE
@@ -420,7 +418,8 @@
 		H.add_verb(/mob/living/carbon/human/proc/sins)
 		H.add_verb(/mob/living/carbon/human/proc/eucharisty)
 		H.add_verb(/mob/living/carbon/human/proc/undeadead)
-		H.add_verb(/mob/living/carbon/human/proc/minorheal)
+		H.add_verb(/mob/living/carbon/human/proc/magic)
+		H.teach_spell(/obj/item/spellorb/sheal)
 		return 1
 
 /datum/job/sojourner

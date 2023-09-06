@@ -23,7 +23,6 @@ and set its desc to what you want the verb to appear as in the statpanel.
 	verbs |= path
 	mob?.updateStatPanel()
 
-
 /client/proc/remove_verb(var/path)
 	verbs -= path
 	mob?.updateStatPanel()
@@ -31,6 +30,7 @@ and set its desc to what you want the verb to appear as in the statpanel.
 /mob/proc/add_verb(var/path)
 	verbs |= path
 	updateStatPanel()
+
 
 /mob/proc/remove_verb(var/path)
 	verbs -= path
@@ -41,7 +41,7 @@ and set its desc to what you want the verb to appear as in the statpanel.
 		spawn(10)
 			init_panel()
 		return
-	var/list/buttons = list("craft","verb","emotes","gpc","cross","crown","fangs","dead","villain")
+	var/list/buttons = list("craft","verb","emotes","gpc","cross","crown","fangs","dead","villain","magic")
 	for(var/button in buttons)
 		html_verbs.Remove(button)
 	mob.updateStatPanel()
@@ -131,7 +131,7 @@ and set its desc to what you want the verb to appear as in the statpanel.
 
 	return fulltext
 
-/proc/generateVerbHtml(var/verbname = "", var/displayname = "", var/number = 1)
+/proc/generateVerbHtml(var/verbname = "", var/displayname = "", var/number = 1, var/ispell = FALSE)
 	if(number % 2)
 		return {"<a href='#' class='verb dim' onclick='window.location = "byond://winset?command=[verbname]"'>[displayname]</a>"}
 	return {"<a href='#' class='verb' onclick='window.location = "byond://winset?command=[verbname]"'>[displayname]</a>"}
@@ -167,7 +167,7 @@ and set its desc to what you want the verb to appear as in the statpanel.
 	if(!client.statpanel_loaded)
 		return
 
-	var/list/buttons = list("options","chrome","verbs","emotes","fangs","dead","craft","gpc","cross","crown","villain","thanati")
+	var/list/buttons = list("options","chrome","verbs","emotes","fangs","dead","craft","gpc","cross","crown","villain","thanati","magic")
 	var/list/no_draw = list("options","chrome")
 	var/list/new_default_buttons = default_buttons  + no_draw
 	var/pixelDistancing = 46
@@ -189,7 +189,6 @@ and set its desc to what you want the verb to appear as in the statpanel.
 		if(!stat_verbs[new_verb.category])
 			stat_verbs[new_verb.category] = list()
 		stat_verbs[new_verb.category] += list(list(new_verb.name, new_verb.desc))
-
 	var/buttonHTML
 	var/current_content = FALSE
 	for(var/button in buttons)

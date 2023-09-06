@@ -343,6 +343,8 @@
 #include "code\game\jobs\job\Siegers\noble.dm"
 #include "code\game\jobs\job\Siegers\sieger.dm"
 #include "code\game\jobs\job\spells\healing.dm"
+#include "code\game\jobs\job\spells\spell.dm"
+#include "code\game\jobs\job\spells\spellbook.dm"
 #include "code\game\machinery\adv_med.dm"
 #include "code\game\machinery\ai_slipper.dm"
 #include "code\game\machinery\airlock_control.dm"
@@ -1530,6 +1532,7 @@
 #include "code\TriDimension\Pipes.dm"
 #include "code\TriDimension\Structures.dm"
 #include "code\TriDimension\Turfs.dm"
+#include "code\unused\traps.dm"
 #include "code\WorkInProgress\alarm.dm"
 #include "code\WorkInProgress\autopsy.dm"
 #include "code\WorkInProgress\buildmode.dm"
@@ -1602,12 +1605,7 @@
 #include "config\whitelist.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
-
-
-#include "maps\\dungeons\TombOfClyde.dmm"
-
-
-#include "code\unused\traps.dm"
+#include "maps\testmap.dmm"
 // END_INCLUDE
 
 
