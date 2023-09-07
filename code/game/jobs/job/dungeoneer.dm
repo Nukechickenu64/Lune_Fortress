@@ -419,7 +419,11 @@
 		H.add_verb(/mob/living/carbon/human/proc/eucharisty)
 		H.add_verb(/mob/living/carbon/human/proc/undeadead)
 		H.add_verb(/mob/living/carbon/human/proc/magic)
-		H.teach_spell(/obj/item/spellorb/sheal)
+		H.add_verb(/mob/living/carbon/human/proc/remembermagic)	
+		H.retain_spell(/obj/item/spellorb/smallheal)
+		H.retain_spell(/obj/item/spellorb/mediumheal)
+		H.retain_spell(/obj/item/spellorb/largeheal)
+		H.retain_spell(/obj/item/spellorb/projectile)
 		return 1
 
 /datum/job/sojourner

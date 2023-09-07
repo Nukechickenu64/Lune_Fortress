@@ -345,6 +345,7 @@
 #include "code\game\jobs\job\spells\healing.dm"
 #include "code\game\jobs\job\spells\spell.dm"
 #include "code\game\jobs\job\spells\spellbook.dm"
+#include "code\game\jobs\job\spells\projectiles\spelljectile.dm"
 #include "code\game\machinery\adv_med.dm"
 #include "code\game\machinery\ai_slipper.dm"
 #include "code\game\machinery\airlock_control.dm"

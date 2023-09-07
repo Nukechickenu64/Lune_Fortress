@@ -1,5 +1,6 @@
 /mob/living/carbon/human
 	var/list/knownspells = list()
+	var/list/spellmemory = list()
 
 /mob/living/carbon/human/proc/magic()
 	set hidden = 0
@@ -13,22 +14,38 @@
 	else
 		to_chat(src,"you need an empty hand ready")
 	
+
+/mob/living/carbon/human/proc/remembermagic()
+	set hidden = 0
+	set category ="magic"
+	set name = "rememberspell"
+	set desc = "summon magic to your mind"
+
+	var/obj/item/spellorb/chosenspell = input(src, "pick a spell","remembered spells", null) as obj in src.spellmemory
+	var/obj/item/spellorb/newspell = new chosenspell.type()
+	knownspells += newspell
+
 /obj/item/spellorb
 	name = "ball of energy"
 	desc = "god knows what will come of this"
 	icon_state = "default"
 	icon = 'icons/obj/spells.dmi'
+	w_class = 4
+	weight = 40
 
 /mob/living/carbon/human/proc/teach_spellunr(var/spellpath)
 	knownspells += new spellpath
 
 /mob/living/carbon/human/proc/teach_spell(var/spellpath)
-	if(!knownspells.Find(spellpath))
+	if(!spellmemory.Find(spellpath))
 		knownspells += new spellpath
-	else
-		to_chat(src,"you already know this spell")
 
-/obj/item/spellorb/throw_at(atom/target, range, speed, thrower)
+
+/mob/living/carbon/human/proc/retain_spell(var/spellpath)
+	if(!knownspells.Find(spellpath))
+		spellmemory += new spellpath
+
+/obj/item/spellorb/throw_at(atom/target, range, speed, /mob/living/carbon/human/thrower)
 	. = ..()
 	del(src)
 
