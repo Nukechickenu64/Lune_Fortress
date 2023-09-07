@@ -423,7 +423,6 @@
 		H.retain_spell(/obj/item/spellorb/smallheal)
 		H.retain_spell(/obj/item/spellorb/mediumheal)
 		H.retain_spell(/obj/item/spellorb/largeheal)
-		H.retain_spell(/obj/item/spellorb/projectile)
 		return 1
 
 /datum/job/sojourner

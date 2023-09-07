@@ -132,3 +132,4 @@
 	. = ..()
 	if(H.ckey)
 		roundendready = TRUE
+		to_chat(world, "<span class='ravenheartfortress'>[H.ckey] has reached the treasure!</span>")

@@ -24,6 +24,7 @@
 "rf" = (/obj/effect/trap,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "rg" = (/obj/item/clothing/under/rank/security/triton,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "si" = (/obj/item/clothing/head/amulet/lechery,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"sq" = (/obj/effect/landmark/zcontroller{down = 1; down_target = 1; up = 2; up_target = 2},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "sx" = (/obj/item/storage/pill_bottle/mdma,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "sT" = (/obj/item/melee/classic_baton/staff,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "sZ" = (/obj/item/card/id/med,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
@@ -68,6 +69,7 @@
 "Hh" = (/obj/item/daggerssheath,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Iu" = (/obj/effect/step_trigger/endzone,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Iy" = (/obj/multiz/stairs/active/bottom/wood,/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"IK" = (/obj/effect/landmark/zcontroller{down = 2; down_target = 2; up = 2; up_target = 2},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "IW" = (/obj/item/clothing/under/trackpants,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "JA" = (/obj/structure/fortune/veilpillar,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Ki" = (/mob/living/sirenhead,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
@@ -116,7 +118,7 @@ FmlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
 FmlzOuufEoBHlzlzlzlzlzlzlzlzlzlzlzlzlzFm
 FmlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
 FmXfWEFmlzFmlzlzlzlzlzlzlzlzlzlzlzlzXfFm
-FmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFm
+IKFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFm
 "}
 (1,1,2) = {"
 FmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFm
@@ -138,5 +140,5 @@ FmqjqjqjlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
 FmqjqjqjlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
 FmlzqjqjlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
 FmmCqjlzqjlzlzlzlzlzlzlzlzlzIuIuIuIumCFm
-FmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFm
+sqFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFm
 "}

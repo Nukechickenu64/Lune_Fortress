@@ -14,7 +14,7 @@
 "du" = (/obj/effect/landmark/start{name = "Sojourner"},/turf/simulated/floor/plating/dirt/cave,/area/dunwell/surface)
 "dA" = (/obj/multiz/ladder,/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "dR" = (/obj/effect/landmark{name = "NPCSkeleton"},/turf/simulated/floor/plating/dirt/cave,/area/dunwell/surface)
-"eZ" = (/obj/effect/landmark/zcontroller{up = 1; up_target = 3; down = 1; down_target = 1},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"eZ" = (/obj/effect/landmark/zcontroller{up = 3; up_target = 3; down = 1; down_target = 1},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "fg" = (/obj/random/ruins_bad,/obj/effect/landmark{name = "NPCSkeleton"},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "fV" = (/turf/simulated/floor/seafloor,/area/dunwell/surface)
 "fY" = (/obj/effect/trap2/single/rockfalls{name = "Z2 Dungeon Single 8"},/obj/effect/pressure_plate{connected_traps_names = list("Z2 Dungeon Single 8")},/turf/simulated/floor/plating/dirt/cave,/area/dunwell/surface)
@@ -38,7 +38,6 @@
 "lH" = (/obj/structure/fireplace,/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "mi" = (/obj/structure/closet/crate/sarcophagus{dir = 8},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "nj" = (/obj/effect/pressure_plate{connected_traps_names = list("Z1 East Entry Single 2")},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
-"nW" = (/obj/structure/pit,/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "of" = (/obj/structure/closet/crate/sarcophagus{dir = 8; icon_state = "sarcophagusopen"},/obj/item/spacecash/gold/c2,/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "ok" = (/obj/structure/torchwall/empty{pixel_y = 21},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "oy" = (/obj/item/stone{icon_state = "smallrock3"},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
@@ -73,7 +72,7 @@
 "vR" = (/obj/item/paper{text = "Those who are unlucky enough to find my secret tomb, those who dare to steal my treasure, shall not leave, unharmed."},/turf/simulated/floor/carpet/beatifulcarpet3{dir = 4},/area/dunwell/surface)
 "vS" = (/turf/simulated/floor/plating/dirt/cave,/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "wc" = (/turf/simulated/floor/carpet/beatifulcarpet3{dir = 6},/area/dunwell/surface)
-"wi" = (/obj/effect/landmark/zcontroller{up = 1; up_target = 2},/obj/effect/landmark/mapinfo{mapname = "Tomb Of Clyde"},/obj/effect/landmark/dungeonmap,/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"wi" = (/obj/effect/landmark/zcontroller{up = 2; up_target = 2; down = 5; down_target = 5},/obj/effect/landmark/mapinfo{mapname = "Tomb Of Clyde"},/obj/effect/landmark/dungeonmap,/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "wW" = (/obj/effect/trap2/single/rockfalls{name = "Z2 Dungeon Single 3"},/obj/effect/pressure_plate{connected_traps_names = list("Z2 Dungeon Single 3")},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "xe" = (/obj/effect/trap2/single/rockfalls{name = "Z2 Dungeon Single 4"},/obj/effect/pressure_plate{connected_traps_names = list("Z2 Dungeon Single 4")},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "xn" = (/turf/simulated/floor/open,/area/dunwell/surface)
@@ -88,7 +87,7 @@
 "Ac" = (/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/structure/closet/crate/lockpickable,/obj/item/ore/refined/lw/goldlw,/obj/item/ore/refined/lw/goldlw,/obj/item/ore/refined/lw/goldlw,/obj/item/ore/refined/lw/goldlw,/obj/item/ore/refined/lw/goldlw,/obj/effect/step_trigger/endzone,/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "Ay" = (/obj/effect/step_trigger/thrower{dir = 8; tiles = 5},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "AT" = (/turf/simulated/wall/stone,/area/dunwell/surface)
-"Bk" = (/obj/effect/landmark/zcontroller{up = 1; up_target = 5; down = 1; down_target = 3},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"Bk" = (/obj/effect/landmark/zcontroller{up = 5; up_target = 5; down = 3; down_target = 3},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "Cc" = (/obj/effect/step_trigger/pitfall{icon = 'icons/life/stonefloor.dmi'; icon_state = "4,0"; name = "stone"},/turf/simulated/floor/open,/area/dunwell/surface)
 "Cd" = (/obj/structure/rack/lwtable/table2,/obj/item/clothing/wrist/bracer/gold,/obj/item/clothing/wrist/bracer/gold,/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "Cf" = (/obj/structure/torchwall/empty{dir = 8},/turf/simulated/floor/plating/dirt/cave,/area/dunwell/surface)
@@ -141,7 +140,7 @@
 "Mj" = (/obj/structure/torchwall/empty{dir = 4},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "Mp" = (/obj/effect/landmark/start{name = "Paladin"},/turf/simulated/floor/plating/dirt/cave,/area/dunwell/surface)
 "Ms" = (/turf/simulated/floor/carpet/beatifulcarpet3{dir = 5},/area/dunwell/surface)
-"Mz" = (/obj/effect/landmark/zcontroller{up = 1; up_target = 4; down = 1; down_target = 2},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"Mz" = (/obj/effect/landmark/zcontroller{up = 4; up_target = 4; down = 2; down_target = 2},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "MH" = (/obj/effect/step_trigger/pitfall{icon = 'icons/life/stonefloor.dmi'; icon_state = "4,0"},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "Nf" = (/obj/structure/closet/crate/sarcophagus{dir = 4; icon_state = "sarcophagusopen"},/obj/item/spacecash/gold/c15,/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "Np" = (/obj/effect/decal/cleanable/blood/writing,/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
@@ -149,7 +148,7 @@
 "Nw" = (/obj/structure/torchwall/empty{dir = 1},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "NC" = (/obj/structure/closet/crate{hastrap = 1},/turf/simulated/floor/plating/dirt/cave,/area/dunwell/surface)
 "NH" = (/obj/effect/landmark{name = "BigRat"},/turf/simulated/floor/plating/dirt/cave,/area/dunwell/surface)
-"OI" = (/obj/effect/landmark/zcontroller{down = 1; down_target = 4},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
+"OI" = (/obj/effect/landmark/zcontroller{down = 4; down_target = 4; up = 5; up_target = 5},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "Pr" = (/obj/effect/step_trigger/teleporter{teleport_x = 54; teleport_y = 52; teleport_z = 1},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "PD" = (/obj/structure/railing{dir = 1},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "Qc" = (/obj/structure/closet/crate/sarcophagus{dir = 4},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
@@ -176,6 +175,7 @@
 "WY" = (/obj/structure/pit/three,/obj/structure/torchwall/empty{pixel_y = 21},/turf/simulated/floor/plating/dirt/cave,/area/dunwell/surface)
 "Xf" = (/obj/item/spacecash/gold/c12,/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "Xu" = (/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/silver/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/item/spacecash/gold/c20,/obj/structure/closet/crate/lockpickable,/obj/item/claymore/golden,/obj/item/ore/refined/lw/goldlw,/obj/item/ore/refined/lw/goldlw,/obj/item/ore/refined/lw/goldlw,/obj/item/ore/refined/lw/goldlw,/obj/item/ore/refined/lw/goldlw,/obj/effect/step_trigger/endzone,/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
+"Yt" = (/turf/simulated/floor/open{level = 2},/area/dunwell/surface)
 "Yv" = (/obj/structure/torchwall{dir = 8},/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "YI" = (/obj/structure/rack/lwtable/table2,/obj/item/spacecash/gold/c14,/turf/simulated/floor/lifeweb/stone,/area/dunwell/surface)
 "Zt" = (/obj/effect/step_trigger/teleporter{teleport_x = 57; teleport_y = 17; teleport_z = 5},/turf/simulated/floor/lifeweb/stone{color = "#000000"; name = "darkness"; desc = "No light reflects from this surface, cold air comes through it towards your lungs."},/area/dunwell/surface)
@@ -261,7 +261,7 @@ IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZ
 IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZ
 IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZxnxnxnxnIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZ
 IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZxnIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZxnxnxnxnIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZATATATATATIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZ
-IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZxnucucIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZxnxnxnxnIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZATxnxnxnATIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZ
+IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZxnucucIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZxnYtxnxnIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZATxnxnxnATIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZ
 IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZxnxnxnxnIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZATxnxnxnATIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZ
 IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZxnxnxnxnIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZATxnxnxnATIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZ
 IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZxnxnxnxnIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZATxnxnxnATIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZ
@@ -348,9 +348,9 @@ IZIZIZIZIZIZIZIZIZIZIZucucucATATucucATIZATIZIZIZucucoyIZIZIZIZIZIZIZIZIZIZIZATuc
 IZIZIZIZIZIZIZIZIZIZATucucucATIZoyATIZIZIZIZIZIZucIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZATATIZATIZATATWPucucIZATATATATATATIZIZIZIZIZrWvqucucbTWPKAucucokWPucucucucMhWPKAucucFUFUFUWPWPucucucWPIZIZIZIZucucucIZIZIZucucucIZIZucucucucIZIZIZIZIZWPWPWPWPIZIZIZIZIZIZ
 IZIZIZIZIZIZIZIZIZIZATWPucWPATATucATATIZATATIZATucATATATATATATATATATIZATATATIZIZATATATIZIZATATMjucWJATATNuucJXlHATATIZIZIZIZrWvqucWPucWPucucucucucucucucucucucucucucucucucucCcucucucgqucucIZucucIZIZIZIZIZIZIZucucucucIZIZIZIZIZIZIZWPWPIZIZWPIZIZIZIZIZIZ
 IZIZIZIZIZIZIZIZIZIZATucucWPJzuchLWWucucucMhucxnucucxnucJzzyucucWPzyucWYucucucucqtucKhucuczyokucucWPATucucucucucNuATIZIZIZIZrWvqucucucbTucucucNwucucucNwWPucucucucucucWPucucucWPucucucATucIZucIZIZIZIZIZIZucIZIZIZIZIZIZIZIZIZIZWPWPWPIZIZIZWPWPIZIZIZIZIZ
-IZIZIZIZIZIZIZIZIZIZIZucucucucucucucxnxnxnxnucxnxnxnxnxnucucuczyucucucCcucuczyucucucWPucucucucucteucjKucucucucmiucATIZIZIZIZIZATATIZIZIZATucvxATIZIZATATATIZIZATWPATATIZIZATWPATIZIZATATucIZucucIZIZIZIZucucIZIZucucucIZIZIZIZWPWPIZIZIZIZIZIZWPIZIZIZIZIZ
-IZIZIZIZIZIZIZIZIZIZATWPucucCYucWPCYxnucucxnucucucgtucucCYWPucucucuczyNwccucucucNwuczyucCcDtNwucucWPATucucucucucNuATIZIZIZIZIZIZIZIZIZIZIZucucIZIZIZIZIZIZIZIZATWPATNCCnJXATucATIZIZIZATucIZIZucucIZIZIZucIZIZucucIZucucIZIZWPWPIZIZIZIZIZIZWPWPIZIZIZIZIZ
-IZIZIZIZIZIZIZIZIZIZATATATIZATATATATIZATATATATucATATATATATATIZATATATATATATATnWIZATIZIZATATATATMjucWJATATNuucJXlHATATIZIZIZIZIZIZIZIZIZIZIZIZucIZIZIZIZIZIZIZIZATucATucucucIZucATIZucucucucIZIZIZucIZIZIZucucucucIZIZIZucucWPWPIZIZIZIZIZWPWPWPIZIZIZIZIZIZ
+IZIZIZIZIZIZIZIZIZIZIZucucucucucucucYtYtYtYtucxnxnxnxnxnucucuczyucucucCcucuczyucucucWPucucucucucteucjKucucucucmiucATIZIZIZIZIZATATIZIZIZATucvxATIZIZATATATIZIZATWPATATIZIZATWPATIZIZATATucIZucucIZIZIZIZucucIZIZucucucIZIZIZIZWPWPIZIZIZIZIZIZWPIZIZIZIZIZ
+IZIZIZIZIZIZIZIZIZIZATWPucucCYucWPCYYtucucYtucucucgtucucCYWPucucucuczyNwccucucucNwuczyucCcDtNwucucWPATucucucucucNuATIZIZIZIZIZIZIZIZIZIZIZucucIZIZIZIZIZIZIZIZATWPATNCCnJXATucATIZIZIZATucIZIZucucIZIZIZucIZIZucucIZucucIZIZWPWPIZIZIZIZIZIZWPWPIZIZIZIZIZ
+IZIZIZIZIZIZIZIZIZIZATATATIZATATATATIZATATATATucATATATATATATIZATATATATATATATIZIZATIZIZATATATATMjucWJATATNuucJXlHATATIZIZIZIZIZIZIZIZIZIZIZIZucIZIZIZIZIZIZIZIZATucATucucucIZucATIZucucucucIZIZIZucIZIZIZucucucucIZIZIZucucWPWPIZIZIZIZIZWPWPWPIZIZIZIZIZIZ
 IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZucIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZATucucWPATATATATATATATIZIZIZIZIZIZIZIZIZIZIZIZIZucIZIZIZIZIZIZIZIZIZucIZucucWPucWPIZIZucIZIZucIZIZIZucucIZIZIZIZIZIZIZIZucucucIZIZIZIZIZIZWPWPIZIZIZIZIZIZIZIZ
 IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZucucucIZIZIZIZIZucIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZATWPCcWPIZATATATATIZIZIZATIZIZIZIZIZIZIZIZIZIZWPucIZIZIZIZIZIZIZIZIZucIZATIZucATucIZIZucucIZIZIZIZIZIZucucIZIZIZIZIZucucucIZucucIZIZIZIZWPWPIZIZIZIZIZIZIZIZIZ
 IZIZIZIZIZIZIZIZIZIZIZIZIZIZIZucIZucIZIZIZIZIZthIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZIZzyucucucokuczyokzyucWPATIZIZIZIZIZIZIZIZIZIZWPucucIZIZIZIZIZIZIZIZucWPucucucucucATIZIZucucIZIZIZIZIZIZucucucucucucucIZIZIZIZucucIZIZIZWPIZIZIZIZIZIZIZIZIZIZ
