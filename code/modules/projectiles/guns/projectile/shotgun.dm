@@ -210,7 +210,7 @@
 	item_worth = 200
 	caliber = ".762"
 	recoil = 0.5
-	jam_chance = 5
+	jam_chance = 1
 	pumpsound = 'sound/weapons/boltpump.ogg'
 	mag_type = /obj/item/ammo_magazine/internal/princ
 	fire_sound = 'sound/weapons/princess_fire.ogg'

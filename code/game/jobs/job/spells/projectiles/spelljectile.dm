@@ -3,10 +3,11 @@
 
 /obj/item/spellorb/projectile
 	name = "projectile spell"
-	var/uses = 1
+	var/uses = 4 //dont go over 4, projectile dysfunction???
 	var/should_sound
 	var/fire_sound
-	var/obj/item/projectile/spelljectile
+	var/projectile_type = /obj/item/projectile/energy/electrode3
+	var/obj/item/projectile/spelljectile = new projectile_type
 	var/recoil = 0
 	var/light_ra
 	var/light_pw
@@ -15,6 +16,10 @@
 
 /obj/item/spellorb/projectile/afterattack(atom/target, mob/user, proximity, params)
 	. = ..()
+	if(uses <= 0)
+		src.visible_message("<span class='hitbold'>[src]</span> <span class='hit'>just fizzles out.</span>")
+		del(src)
+		return 0
 	if(istype(user, /mob/living/carbon/human))
 		var/mob/living/carbon/human/H = user
 		if(H.hasActiveShield(1))
@@ -33,8 +38,9 @@
 	if(HHC.gloves)
 		var/obj/item/clothing/gloves/G = HHC.gloves
 		if(G.blocks_firing)
-			to_chat(user,"<span class='combatbold'><span class='combat'>[pick(fnord)]</span> I can't pull the trigger in these gloves!</span>")
+			to_chat(user,"<span class='combatbold'><span class='combat'>[pick(fnord)]</span> I can't cast the spell in these gloves!</span>")
 			return
+
 	var/list/new3d6Roll = roll3d6(HHC,SKILL_RANGE,null)
 	switch(new3d6Roll[GP_RESULT])
 		if(GP_CRITFAIL)
@@ -91,8 +97,11 @@
 			spelljectile.p_y = text2num(mouse_control["icon-y"])
 
 	spawn()
-		if(spelljectile)
+		if(spelljectile && uses >= 0)
 			spelljectile.process()
+			spelljectile = new projectile_type
+
+
 	
 	update_icon()
 
@@ -104,8 +113,9 @@
 		user.update_inv_r_hand()
 
 	user.newtonian_move(get_dir(target, user))
-	if(uses <= 0)
-		del(src)
+
+	uses -= 1
+	
 	if(user.hand)
 		user.update_inv_l_hand()
 	else

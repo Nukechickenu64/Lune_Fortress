@@ -13,13 +13,13 @@
 /mob/dead/observer/verb/ascend()
 	set category = "dead"
 	set name = "Ascend"
-	set desc = "(30) Ascend"
+	set desc = "[!locate(/obj/effect/landmark/dungeonmap) ? " (30)":""] Ascend"
 
 	if(in_hell)
 		to_chat(src, "<span class='combat'>[pick(fnord)] I've been damned!</span>")
 		return
 
-	if(src.client.wraith_pain >= 30)
+	if(src.client.wraith_pain || locate(/obj/effect/landmark/dungeonmap))
 		var/mob/new_player/M = new /mob/new_player()
 		if(!client)
 			log_game("[usr.key] AM failed due to disconnect.")
