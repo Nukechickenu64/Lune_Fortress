@@ -215,7 +215,7 @@
 	mag_type = /obj/item/ammo_magazine/internal/princ
 	fire_sound = 'sound/weapons/princess_fire.ogg'
 	casing_sound = 'sound/weapons/guns/misc/casingfall1.ogg'
-	stacktype = /obj/item/stack/bullets/rifle
+	stacktype = /obj/item/ammo_casing/a762
 	spenttype = /obj/item/ammo_casing/spent/rifle
 	weight = 7
 
@@ -234,7 +234,7 @@
 	mag_type = /obj/item/ammo_magazine/internal/princmk1
 	fire_sound = 'sound/weapons/princess_fire.ogg'
 	casing_sound = 'sound/weapons/guns/misc/casingfall1.ogg'
-	stacktype = /obj/item/stack/bullets/rifle
+	stacktype = /obj/item/ammo_casing/a762
 	spenttype = /obj/item/ammo_casing/spent/rifle
 	weight = 12
 

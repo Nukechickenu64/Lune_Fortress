@@ -52,3 +52,11 @@
 /obj/item/spellorb/dropped()
 	. = ..()
 	del(src)
+
+/obj/item/spellorb/on_exit_storage(obj/item/storage/S, new_location)
+	. = ..()
+	del(src)
+
+/obj/item/spellorb/on_enter_storage(obj/item/storage/S)
+	. = ..()
+	del(src)

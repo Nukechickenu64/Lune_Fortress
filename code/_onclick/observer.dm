@@ -12,8 +12,8 @@
 
 /mob/dead/observer/verb/ascend()
 	set category = "dead"
-	set name = "Ascend"
-	set desc = "[!locate(/obj/effect/landmark/dungeonmap) ? " (30)":""] Ascend"
+	set name = "(30)Ascend"
+	set desc = "(30)Ascend"
 
 	if(in_hell)
 		to_chat(src, "<span class='combat'>[pick(fnord)] I've been damned!</span>")

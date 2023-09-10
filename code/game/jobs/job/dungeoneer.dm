@@ -302,9 +302,9 @@
 		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/sandal(H), slot_shoes)
 		H.equip_to_slot_or_del(new /obj/item/gun/projectile/shotgun/princess(H), slot_back2)
 		H.equip_to_slot_or_del(new /obj/item/storage/backpack(H), slot_back)
-		H.equip_to_slot_or_del(new /obj/item/ammo_magazine/internal/princ(H), slot_in_backpack)
-		H.equip_to_slot_or_del(new /obj/item/ammo_magazine/internal/princ(H), slot_in_backpack)
-		H.equip_to_slot_or_del(new /obj/item/ammo_magazine/internal/princ(H), slot_in_backpack)
+		H.equip_to_slot_or_del(new /obj/item/stack/bullets/rifle/nine(H), slot_in_backpack)
+		H.equip_to_slot_or_del(new /obj/item/stack/bullets/rifle/nine(H), slot_in_backpack)
+		H.equip_to_slot_or_del(new /obj/item/stack/bullets/rifle/nine(H), slot_in_backpack)
 		H.create_kg()
 		return 1
 
@@ -423,7 +423,7 @@
 		H.retain_spell(/obj/item/spellorb/smallheal)
 		H.retain_spell(/obj/item/spellorb/mediumheal)
 		H.retain_spell(/obj/item/spellorb/largeheal)
-		H.retain_spell(/obj/item/spellorb/projectile)
+		H.retain_spell(/obj/item/spellorb/projectile/spark)
 		return 1
 
 /datum/job/sojourner
@@ -535,5 +535,61 @@
 		H.equip_to_slot_or_del(new /obj/item/clothing/under/common(H), slot_w_uniform)
 		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/sandal(H), slot_shoes)
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/amulet/holy/cross/old(H), slot_l_store)
+		H.create_kg()
+		return 1
+
+/datum/job/wizard
+	title = "Wizard"
+	titlebr = "ROGER"
+	flag = WIZARD
+	department_flag = DUNGEONEER
+	stat_mods = list(STAT_ST = 0, STAT_DX = 0, STAT_HT = 0, STAT_IN = 8)
+	faction = "DungeonParty"
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "The party leader"
+	selection_color = "#ddddff"
+	idtype = /obj/item/card/id/ltgrey
+	jobdesc = "You are a wise wizard."
+	jobdescbr = "You are a trained idiot."
+	thanati_chance = 75
+	access = list(keep,baronquarter)
+	minimal_access = list(keep,baronquarter)
+	skill_mods = list(
+	list(SKILL_SWORD,0),
+	list(SKILL_MELEE,2,3),
+	list(SKILL_RANGE, 1,9),
+	list(SKILL_FARM,0),
+	list(SKILL_COOK,0),
+	list(SKILL_ENGINE,0),
+	list(SKILL_SURG,0),
+	list(SKILL_MEDIC,0),
+	list(SKILL_CLEAN,0),
+	list(SKILL_CLIMB,1,3),
+	list(SKILL_PARTY,1,4),
+	list(SKILL_SWIM,1,3),
+	list(SKILL_MUSIC, 0,1),
+	list(SKILL_OBSERV, 2,8),
+	list(SKILL_UNARM, 1,7),
+	list(SKILL_STEAL, 1,3),
+	list(SKILL_SNEAK, 3,4),
+	)
+
+
+	equip(var/mob/living/carbon/human/H)
+		if(!H)
+			return 0
+		..()
+		H.voicetype = "noble"
+		H.equip_to_slot_or_del(new /obj/item/clothing/head/wizard(H), slot_head)
+		H.equip_to_slot_or_del(new /obj/item/clothing/under/common(H), slot_w_uniform)
+		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/sandal(H), slot_shoes)
+
+		H.add_verb(/mob/living/carbon/human/proc/magic)
+		H.add_verb(/mob/living/carbon/human/proc/remembermagic)
+
+		H.retain_spell(/obj/item/spellorb/projectile/fireball)
+		H.retain_spell(/obj/item/spellorb/largeheal)
+		H.retain_spell(/obj/item/spellorb/projectile/mmissile)
 		H.create_kg()
 		return 1

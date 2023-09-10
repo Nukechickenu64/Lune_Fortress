@@ -398,7 +398,7 @@ var/list/usedremig = list()
 		usr << "You have been dead for [pluralcheck] [deathtimeseconds] seconds."
 
 		if(mind.current)
-			if(!mind.current.buried && !mind.current.crucified && mind.current.loc != /obj/structure/closet/coffin) //If our current body is destroyed (incinerator etc.) it copunts as buried
+			if(!mind.current.buried && !mind.current.crucified && mind.current.loc != /obj/structure/closet/coffin && !locate(/obj/effect/landmark/dungeonmap)) //If our current body is destroyed (incinerator etc.) it copunts as buried
 				to_chat(src, "Your body is not buried nor destroyed.")
 				return
 

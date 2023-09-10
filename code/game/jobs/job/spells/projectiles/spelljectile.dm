@@ -7,7 +7,7 @@
 	var/should_sound
 	var/fire_sound
 	var/projectile_type = /obj/item/projectile/energy/electrode3
-	var/obj/item/projectile/spelljectile = new projectile_type
+	var/obj/item/projectile/spelljectile
 	var/recoil = 0
 	var/light_ra
 	var/light_pw
@@ -16,8 +16,9 @@
 
 /obj/item/spellorb/projectile/afterattack(atom/target, mob/user, proximity, params)
 	. = ..()
+	spelljectile = new projectile_type
 	if(uses <= 0)
-		src.visible_message("<span class='hitbold'>[src]</span> <span class='hit'>just fizzles out.</span>")
+		user.visible_message("<span class='hitbold'>[src]</span> <span class='hit'>just fizzles out.</span>")
 		del(src)
 		return 0
 	if(istype(user, /mob/living/carbon/human))
@@ -99,7 +100,6 @@
 	spawn()
 		if(spelljectile && uses >= 0)
 			spelljectile.process()
-			spelljectile = new projectile_type
 
 
 	
@@ -120,3 +120,19 @@
 		user.update_inv_l_hand()
 	else
 		user.update_inv_r_hand()
+
+/obj/item/projectile/spelljectile/fireball
+	icon_state = "pulse0"
+	name = "fireball"
+	desc = "did you check if theres enough room"
+
+/obj/item/projectile/spelljectile/fireball/on_hit(atom/target, blocked)
+	. = ..()
+	explosion(src.loc, 0, 1, 3, 4)
+
+/obj/item/projectile/spelljectile/mmissile
+	icon_state = "magicm"
+	name = "fireball"
+	desc = "did you check if theres enough room"
+	damage = 10
+	agony = 50

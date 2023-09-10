@@ -342,6 +342,7 @@
 #include "code\game\jobs\job\migrants\pathfinder\skills.dm"
 #include "code\game\jobs\job\Siegers\noble.dm"
 #include "code\game\jobs\job\Siegers\sieger.dm"
+#include "code\game\jobs\job\spells\damaging.dm"
 #include "code\game\jobs\job\spells\healing.dm"
 #include "code\game\jobs\job\spells\spell.dm"
 #include "code\game\jobs\job\spells\spellbook.dm"
