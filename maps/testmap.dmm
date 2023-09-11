@@ -31,6 +31,7 @@
 "ta" = (/obj/item/daggerssheath/iron,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "th" = (/obj/item/gun/projectile/automatic/new_rifle/lakko,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "tD" = (/obj/item/ammo_magazine/external/sm45,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"tM" = (/obj/item/storage/backpack/mortus,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "ub" = (/obj/effect/landmark/start{name = "Bard"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "uf" = (/obj/item/musical_instrument/baliset/balalaika,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "uB" = (/obj/item/ammo_magazine/external/sm45/pusher/full,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
@@ -56,21 +57,25 @@
 "Bb" = (/obj/item/card/id/atmos,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "BD" = (/obj/item/reagent_containers/glass/bottle/wine,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "BH" = (/obj/item/musical_instrument/bayan,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"BO" = (/obj/item/clothing/suit/wizrobe,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Co" = (/obj/item/card/id/heatlab,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "CA" = (/obj/item/clothing/suit/armor/vest/iron_plate,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "CU" = (/obj/item/card/id/hos,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Eg" = (/obj/item/card/id/viro,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Eo" = (/obj/item/musical_instrument/baliset/guitar,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Fh" = (/obj/item/clothing/under/urchin,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Fi" = (/obj/item/clothing/suit/hood/donor/absenceofwords/blackcloak,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Fm" = (/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "Fn" = (/obj/item/storage/backpack/svalinncloak,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "GM" = (/obj/item/clothing/under/rank/migrant/pusher,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"GN" = (/obj/item/clothing/head/wizard,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "GP" = (/obj/item/staff/broom,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Hh" = (/obj/item/daggerssheath,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Iu" = (/obj/effect/step_trigger/endzone,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Iy" = (/obj/multiz/stairs/active/bottom/wood,/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "IK" = (/obj/effect/landmark/zcontroller{down = 2; down_target = 2; up = 2; up_target = 2},/turf/simulated/wall/r_wall/cave,/area/dunwell/surface)
 "IW" = (/obj/item/clothing/under/trackpants,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"Jl" = (/obj/item/clothing/suit/armor/leather/reddawn,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "JA" = (/obj/structure/fortune/veilpillar,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Ki" = (/mob/living/sirenhead,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Lc" = (/obj/item/storage/backpack/beltsatchel,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
@@ -83,6 +88,7 @@
 "PA" = (/obj/effect/trap{edge = 20},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "PQ" = (/obj/effect/landmark/start,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Qa" = (/obj/effect/landmark/start{name = "Paladin"},/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
+"QM" = (/obj/item/clothing/suit/donor/sailorcloak,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "QO" = (/obj/item/ammo_magazine/box/c45,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "QY" = (/obj/item/reagent_containers/glass/bottle/pwine,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
 "Rm" = (/obj/item/clothing/under/psysuit,/turf/simulated/floor/lifeweb/cerb,/area/dunwell/surface)
@@ -113,10 +119,10 @@ FmbZzhWwRJyXfkYyQOuBlzlzlzlzlzlzlzlzlzFm
 FmrgfKaEUDLolzAmtDlzmClzlzlzlzlzlzlzlzFm
 FmlznYbTlzmClzlzlzlzlzlzlzmClzlzlzlzlzFm
 FmlzFhtalzlzXflzlzlzlzlzXflzlzlzlzlzlzFm
-FmlzlzHhlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
-FmlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
-FmlzOuufEoBHlzlzlzlzlzlzlzlzlzlzlzlzlzFm
-FmlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzFm
+FmlzlzHhlzlzlzlzGNBOlzlzlzlzlzlzlzlzlzFm
+FmlzlzlzlzlzlzQMlzlzlzlzlzlzlzlzlzlzlzFm
+FmlzOuufEoBHlzFiJllzlzlzlzlzlzlzlzlzlzFm
+FmlzlzlzlzlzlztMlzlzlzlzlzlzlzlzlzlzlzFm
 FmXfWEFmlzFmlzlzlzlzlzlzlzlzlzlzlzlzXfFm
 IKFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFmFm
 "}

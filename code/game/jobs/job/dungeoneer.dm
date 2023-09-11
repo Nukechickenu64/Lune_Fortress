@@ -46,6 +46,7 @@
 		H.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/vest/iron_breastplate, slot_wear_suit)
 		H.equip_to_slot_or_del(new /obj/item/claymore/gladius, slot_belt)
 		H.equip_to_slot_or_del(new /obj/item/shield/wood, slot_back)
+		H.equip_to_slot_or_del(new /obj/item/device/cellphone/Donator(H), slot_l_store)
 		H.create_kg()
 		return 1
 
@@ -96,8 +97,8 @@
 		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/thief(H), slot_shoes)
 		H.equip_to_slot_or_del(new /obj/item/daggerssheath/iron(H), slot_wrist_l)
 		H.equip_to_slot_or_del(new /obj/item/storage/backpack/svalinncloak(H), slot_back)
-		H.equip_to_slot_or_del(new /obj/item/lockpick(H), slot_l_store)
 		H.equip_to_slot_or_del(new /obj/item/lockpick(H), slot_r_store)
+		H.equip_to_slot_or_del(new /obj/item/device/cellphone/Donator(H), slot_l_store)
 		H.create_kg()
 		H.acrobat = 1
 		return 1
@@ -149,6 +150,7 @@
 		H.equip_to_slot_or_del(new /obj/item/daggerssheath/iron(H), slot_wrist_l)
 		H.equip_to_slot_or_del(new /obj/item/musical_instrument/baliset/guitar(H), slot_back)
 		H.equip_to_slot_or_del(new /obj/item/musical_instrument/baliset(H), slot_back2)
+		H.equip_to_slot_or_del(new /obj/item/device/cellphone/Donator(H), slot_l_store)
 		H.create_kg()
 		H.add_verb(list(/mob/living/carbon/human/proc/apelidar,
 				/mob/living/carbon/human/proc/malabares,
@@ -201,8 +203,10 @@
 		..()
 		H.voicetype = "noble"
 		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/sandal(H), slot_shoes)
+		H.equip_to_slot_or_del(new /obj/item/clothing/under/common(H), slot_w_uniform)
 		H.equip_to_slot_or_del(new /obj/item/claymore/bardiche(H), slot_back)
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/amulet/lechery, slot_l_hand)
+		H.equip_to_slot_or_del(new /obj/item/device/cellphone/Donator(H), slot_l_store)
 		H.create_kg()
 		return 1
 
@@ -253,6 +257,7 @@
 		H.equip_to_slot_or_del(new /obj/item/clothing/under/common(H), slot_w_uniform)
 		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/sandal(H), slot_shoes)
 		H.equip_to_slot_or_del(new /obj/item/melee/classic_baton/staff(H), slot_back)
+		H.equip_to_slot_or_del(new /obj/item/device/cellphone/Donator(H), slot_l_store)
 		H.create_kg()
 		H.acrobat = 1
 		return 1
@@ -305,6 +310,7 @@
 		H.equip_to_slot_or_del(new /obj/item/stack/bullets/rifle/nine(H), slot_in_backpack)
 		H.equip_to_slot_or_del(new /obj/item/stack/bullets/rifle/nine(H), slot_in_backpack)
 		H.equip_to_slot_or_del(new /obj/item/stack/bullets/rifle/nine(H), slot_in_backpack)
+		H.equip_to_slot_or_del(new /obj/item/device/cellphone/Donator(H), slot_l_store)
 		H.create_kg()
 		return 1
 
@@ -356,6 +362,7 @@
 		H.equip_to_slot_or_del(new /obj/item/claymore/silver(H), slot_l_hand)
 		H.equip_to_slot_or_del(new /obj/item/sheath(H), slot_belt)
 		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/paladin(H), slot_shoes)
+		H.equip_to_slot_or_del(new /obj/item/device/cellphone/Donator(H), slot_l_store)
 		H.add_perk(/datum/perk/ref/strongback)
 		H.terriblethings = TRUE
 		H.add_perk(/datum/perk/heroiceffort)
@@ -413,6 +420,7 @@
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/amulet/holy/cross/gcopper, slot_r_hand)
 		H.equip_to_slot_or_del(new /obj/item/clothing/wrist/bracer/gold, slot_wrist_l)
 		H.equip_to_slot_or_del(new /obj/item/clothing/wrist/bracer/gold, slot_wrist_r)
+		H.equip_to_slot_or_del(new /obj/item/device/cellphone/Donator(H), slot_l_store)
 		H.terriblethings = TRUE
 		H.create_kg()
 		H.add_verb(/mob/living/carbon/human/proc/sins)
@@ -476,7 +484,7 @@
 		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/leatherboots(H), slot_shoes)
 		H.equip_to_slot_or_del(new /obj/item/gun/projectile/shotgun/princess(H), slot_back2)
 		H.equip_to_slot_or_del(new /obj/item/kitchen/utensil/knife/cutelo(H), slot_l_store)
-		H.equip_to_slot_or_del(new /obj/item/flame/lighter(H), slot_l_store)
+		H.equip_to_slot_or_del(new /obj/item/flame/lighter(H), slot_r_store)
 		H.equip_to_slot_or_del(new /obj/item/storage/backpack(H), slot_back)
 		H.equip_to_slot_or_del(new /obj/item/reagent_containers/glass/beaker/bowl(H), slot_in_backpack)
 		H.equip_to_slot_or_del(new /obj/item/reagent_containers/food/snacks/breadsys/salamistick(H), slot_in_backpack)
@@ -508,21 +516,21 @@
 	access = list(keep,baronquarter)
 	minimal_access = list(keep,baronquarter)
 	skill_mods = list(
-	list(SKILL_SWORD,0,20),
-	list(SKILL_MELEE,0,20),
-	list(SKILL_RANGE, 0,20),
-	list(SKILL_FARM,0,20),
-	list(SKILL_COOK,0,20),
-	list(SKILL_ENGINE,0,20),
-	list(SKILL_SURG,0,20),
-	list(SKILL_MEDIC,0,20),
-	list(SKILL_CLEAN,0,20),
-	list(SKILL_CLIMB,0,20),
-	list(SKILL_PARTY,0,20),
-	list(SKILL_SWIM,0,20),
-	list(SKILL_MUSIC, 0,20),
-	list(SKILL_OBSERV, 0,20),
-	list(SKILL_UNARM, 0,20),
+	list(SKILL_SWORD,0,10),
+	list(SKILL_MELEE,0,10),
+	list(SKILL_RANGE, 0,10),
+	list(SKILL_FARM,0,10),
+	list(SKILL_COOK,0,10),
+	list(SKILL_ENGINE,0,10),
+	list(SKILL_SURG,0,10),
+	list(SKILL_MEDIC,0,10),
+	list(SKILL_CLEAN,0,10),
+	list(SKILL_CLIMB,0,10),
+	list(SKILL_PARTY,0,10),
+	list(SKILL_SWIM,0,10),
+	list(SKILL_MUSIC, 0,10),
+	list(SKILL_OBSERV, 0,10),
+	list(SKILL_UNARM, 0,10),
 	)
 
 
@@ -534,7 +542,8 @@
 		H.equip_to_slot_or_del(new /obj/item/handcuffs(H), slot_handcuffed)
 		H.equip_to_slot_or_del(new /obj/item/clothing/under/common(H), slot_w_uniform)
 		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/sandal(H), slot_shoes)
-		H.equip_to_slot_or_del(new /obj/item/clothing/head/amulet/holy/cross/old(H), slot_l_store)
+		H.equip_to_slot_or_del(new /obj/item/clothing/head/amulet/holy/cross/old(H), slot_r_store)
+		H.equip_to_slot_or_del(new /obj/item/device/cellphone/Donator(H), slot_l_store)
 		H.create_kg()
 		return 1
 
@@ -584,6 +593,7 @@
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/wizard(H), slot_head)
 		H.equip_to_slot_or_del(new /obj/item/clothing/under/common(H), slot_w_uniform)
 		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/sandal(H), slot_shoes)
+		H.equip_to_slot_or_del(new /obj/item/device/cellphone/Donator(H), slot_l_store)
 
 		H.add_verb(/mob/living/carbon/human/proc/magic)
 		H.add_verb(/mob/living/carbon/human/proc/remembermagic)
@@ -591,5 +601,66 @@
 		H.retain_spell(/obj/item/spellorb/projectile/fireball)
 		H.retain_spell(/obj/item/spellorb/largeheal)
 		H.retain_spell(/obj/item/spellorb/projectile/mmissile)
+		H.create_kg()
+		return 1
+
+/datum/job/warlock
+	title = "Warlock"
+	titlebr = "ROGER"
+	flag = WARLOCK
+	department_flag = DUNGEONEER
+	stat_mods = list(STAT_ST = 0, STAT_DX = 3, STAT_HT = 0, STAT_IN = 8)
+	faction = "DungeonParty"
+	latejoin_locked = TRUE
+	total_positions = 2
+	spawn_positions = 2
+	supervisors = "The party leader"
+	selection_color = "#ddddff"
+	idtype = /obj/item/card/id/ltgrey
+	jobdesc = "You are a devious warlock/necromancer."
+	jobdescbr = "You are a trained idiot."
+	thanati_chance = 75
+	access = list(keep,baronquarter)
+	minimal_access = list(keep,baronquarter)
+	skill_mods = list(
+	list(SKILL_SWORD,0),
+	list(SKILL_MELEE,2,3),
+	list(SKILL_RANGE, 1,9),
+	list(SKILL_FARM,0),
+	list(SKILL_COOK,0),
+	list(SKILL_ENGINE,0),
+	list(SKILL_SURG,0),
+	list(SKILL_MEDIC,0),
+	list(SKILL_CLEAN,0),
+	list(SKILL_CLIMB,1,3),
+	list(SKILL_PARTY,1,4),
+	list(SKILL_SWIM,1,3),
+	list(SKILL_MUSIC, 0,1),
+	list(SKILL_OBSERV, 2,8),
+	list(SKILL_UNARM, 1,7),
+	list(SKILL_STEAL, 1,3),
+	list(SKILL_SNEAK, 3,4),
+	)
+
+
+	equip(var/mob/living/carbon/human/H)
+		if(!H)
+			return 0
+		..()
+		H.voicetype = "noble"
+		H.equip_to_slot_or_del(new /obj/item/clothing/head/misero(H), slot_head)
+		H.equip_to_slot_or_del(new /obj/item/clothing/under/common(H), slot_w_uniform)
+		H.equip_to_slot_or_del(new /obj/item/clothing/shoes/lw/sandal(H), slot_shoes)
+		H.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/vest/goodhood/morticiancloak(H), slot_wear_suit)
+		H.equip_to_slot_or_del(new /obj/item/handcuffs(H), slot_handcuffed)
+		H.equip_to_slot_or_del(new /obj/item/device/cellphone/Donator(H), slot_l_store)
+
+		H.add_verb(/mob/living/carbon/human/proc/magic)
+		H.add_verb(/mob/living/carbon/human/proc/remembermagic)
+
+		H.retain_spell(/obj/item/spellorb/revive)
+		H.retain_spell(/obj/item/spellorb/taint)
+		H.retain_spell(/obj/item/spellorb/projectile/mmissile)
+		H.retain_spell(/obj/item/spellorb/projectile/evilbeam)
 		H.create_kg()
 		return 1

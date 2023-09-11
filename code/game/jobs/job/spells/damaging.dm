@@ -15,3 +15,9 @@
 	desc = "for targetting accurately"
 	uses = 5
 	projectile_type = /obj/item/projectile/spelljectile/mmissile
+
+/obj/item/spellorb/projectile/evilbeam
+	name = "beam of evil"
+	desc = "for disciplining those underlings"
+	uses = 2
+	projectile_type = /obj/item/projectile/energy/laser

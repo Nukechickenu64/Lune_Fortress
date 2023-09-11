@@ -598,6 +598,7 @@
 #include "code\game\objects\items\devices\multitool.dm"
 #include "code\game\objects\items\devices\paicard.dm"
 #include "code\game\objects\items\devices\pipe_painter.dm"
+#include "code\game\objects\items\devices\pocketterm.dm"
 #include "code\game\objects\items\devices\powersink.dm"
 #include "code\game\objects\items\devices\scanners.dm"
 #include "code\game\objects\items\devices\taperecorder.dm"
@@ -1607,7 +1608,7 @@
 #include "config\whitelist.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
-#include "maps\testmap.dmm"
+#include "maps\dungeons\TombOfClyde.dmm"
 // END_INCLUDE
 
 
