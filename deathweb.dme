@@ -1608,7 +1608,7 @@
 #include "config\whitelist.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
-#include "maps\dungeons\TombOfClyde.dmm"
+#include "maps\highwater.dmm"
 // END_INCLUDE
 
 
